@@ -382,7 +382,7 @@ ngx_open_listening_sockets(ngx_cycle_t *cycle)
 {
     int               reuseaddr;
     ngx_uint_t        i, tries, failed;
-    ngx_err_t         err;
+    ngx_err_t         err = 0;
     ngx_log_t        *log;
     ngx_socket_t      s;
     ngx_listening_t  *ls;

@@ -366,8 +366,7 @@ void traversal(ngx_conf_t *cf, ngx_http_location_tree_node_t* node)
         if (loc != NULL)
         {
             ngx_http_mytest_config_conf_t  *mycf = (ngx_http_mytest_config_conf_t  *)loc->loc_conf[ngx_http_mytest_config_module.ctx_index];
-            ngx_log_error(NGX_LOG_ALERT, cf->log, 0, "in location[name=%V]{} test_str=%V",
-                          &loc->name, &mycf->my_str);
+            ngx_log_error(NGX_LOG_ALERT, cf->log, 0, "jeff in location[name=%V]{} test_str=%V", &loc->name, &mycf->my_str);
         }
         else
         {

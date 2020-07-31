@@ -155,10 +155,12 @@ ngx_output_chain(ngx_output_chain_ctx_t *ctx, ngx_chain_t *in)  //in为需要发送的
     ngx_chain_t  *cl, *out, **last_out;
 
     ngx_uint_t sendfile = ctx->sendfile;
+#if (NGX_HAVE_FILE_AIO || NGX_THREADS)
     ngx_uint_t aio = ctx->aio;
+#endif
     ngx_uint_t directio = ctx->directio;
     
-    ngx_log_debugall(ctx->pool->log, 0, "ctx->sendfile:%ui, ctx->aio:%ui, ctx->directio:%ui", sendfile, aio, directio);
+    ngx_log_debugall(ctx->pool->log, 0, "ctx->sendfile:%ui ctx->directio:%ui", sendfile, directio);
     if (ctx->in == NULL && ctx->busy == NULL
 #if (NGX_HAVE_FILE_AIO || NGX_THREADS)
         && !ctx->aio

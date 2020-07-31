@@ -189,6 +189,7 @@ void ngx_str_t_2buf(char *buf, ngx_str_t *str);
     使用ngx_log_error宏记录日志时，如果传人的level级别小于或等于log参数中的日志
 级别（通常是由nginx.conf配置文件中指定），就会输出日志内容，否则这条日志会被忽略。
 */
+
 #define ngx_log_error(level, log, ...)                                        \
     if ((log)->log_level >= level) ngx_log_error_core(level, log,__FUNCTION__, __LINE__, __VA_ARGS__)
 
