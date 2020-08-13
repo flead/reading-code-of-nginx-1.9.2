@@ -1,6 +1,6 @@
 ### Mac下编译源码和安装Nginx
 
-```json
+```shell
 1. 资源下载
     nginx: http://nginx.org/download/nginx-1.12.2.tar.gz   [或者使用git中的1.9.2版本]
     zlib: http://zlib.net/zlib-1.2.11.tar.gz
@@ -34,7 +34,7 @@ sudo /usr/local/nginx/sbin/nginx -s reload
 
 ### 开启代码调试
 
-```
+```shell
 ./configure --with-debug --with-cc-opt='-g -O0' --prefix=/usr/local/nginx --with-zlib=../zlib-1.2.11 --with-pcre=../pcre-8.38 --with-openssl=../openssl-1.1.0g
 
 /Users/lifei/work/nginx_source/nginx/objs/run_log

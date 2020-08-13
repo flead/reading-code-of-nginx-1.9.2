@@ -98,7 +98,7 @@ master进程怎样启动一个子进程呢？其实很简单，fork系统调用即可以完成。ngx_spawn_pr
 */
 //第一个参数是全局的配置，第二个参数是子进程需要执行的函数，第三个参数是proc的参数。第四个类型。  name是子进程的名称
 ngx_pid_t ngx_spawn_process(ngx_cycle_t *cycle, ngx_spawn_proc_pt proc, void *data,
-    char *name, ngx_int_t respawn) //respawn取值为NGX_PROCESS_RESPAWN等，或者为进程在ngx_processes[]中的序号
+    char *name, ngx_int_t respawn) //respawn取值： 大于0-为进程在ngx_processes[]中的序号. other- NGX_PROCESS_DETACHED 等
 {
     u_long     on;
     ngx_pid_t  pid;
@@ -110,7 +110,7 @@ ngx_pid_t ngx_spawn_process(ngx_cycle_t *cycle, ngx_spawn_proc_pt proc, void *da
 
     } else {
         for (s = 0; s < ngx_last_process; s++) { 
-            if (ngx_processes[s].pid == -1) { //先找到一个被回收的进程表象   
+            if (ngx_processes[s].pid == -1) { //先找到一个被回收的进程表项
                 break;
             }
         }

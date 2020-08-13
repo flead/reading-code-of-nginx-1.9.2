@@ -674,6 +674,7 @@ ngx_exec_new_binary(ngx_cycle_t *cycle, char *const *argv) //ngx_add_inherited_s
         return NGX_INVALID_PID;
     }
 
+    // NGINX_VAR "=" ： 是C语言常量字符串拼接语法.  传入memcpy函数的src实际上是拼接后的新字符串，sizeof()计算的是拼接前的老字符串的长度.
     p = ngx_cpymem(var, NGINX_VAR "=", sizeof(NGINX_VAR));
 
     ls = cycle->listening.elts;

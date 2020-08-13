@@ -297,7 +297,7 @@ typedef struct { //从ngx_cycle_s->conf_ctx[ngx_core_module.index]指向这里
 
     //数组第一个成员是TZ字符串
      ngx_array_t              env;//成员类型ngx_str_t，见ngx_core_module_create_conf
-     char                   **environment; //直接指向env，见ngx_set_environment
+     char                   **environment; //直接指向env，见 ngx_set_environment
 } ngx_core_conf_t;
 
 
