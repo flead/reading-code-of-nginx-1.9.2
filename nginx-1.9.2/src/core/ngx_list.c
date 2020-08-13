@@ -26,12 +26,15 @@ ngx_list_create(ngx_pool_t *pool, ngx_uint_t n, size_t size) //实际上就是为nginx
     return list;
 }
 
+
 /*
-ngx_list_t也是一个顺序容器，它实际上相当于动态数组与单向链表的结
-合体，只是扩容起来比动态数组简单得多，它可以一次性扩容1个数组。
-*/
-//如果l中的last的elts用完了，则在l链表中新创建一个ngx_list_part_t，起实际数据部分空间大小为l->nalloc * l->size。
-//如果l的last还有剩余，则返回last中未用的空间
+ * [用法]： 调用该函数,从ngx_list缓存中, 获取到一个空闲的对象. 使用者无需关注链表和缓存的操作.
+ *
+ * ngx_list_t也是一个顺序容器，它实际上相当于动态数组与单向链表的结合体，只是扩容起来比动态数组简单得多，它可以一次性扩容1个数组。
+ * 如果l中的last的elts用完了，则在l链表中新创建一个ngx_list_part_t，起实际数据部分空间大小为l->nalloc * l->size。
+ * 如果l中的last的elts用完了，则在l链表中新创建一个ngx_list_part_t，起实际数据部分空间大小为l->nalloc * l->size。
+ * 如果l的last还有剩余，则返回last中未用的空间.
+ * */
 void *
 ngx_list_push(ngx_list_t *l)
 {
@@ -40,6 +43,8 @@ ngx_list_push(ngx_list_t *l)
 
     last = l->last;
 
+    // last->nelts: 已经分配的元素的个数. l->nalloc: 数组的尺寸
+    // last->nelts == l->nalloc 表示数组用完了.
     if (last->nelts == l->nalloc) {
 
         /* the last part is full, allocate a new list part */

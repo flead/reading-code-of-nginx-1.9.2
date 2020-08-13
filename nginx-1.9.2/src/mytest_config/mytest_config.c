@@ -2,6 +2,7 @@
 #include <ngx_core.h>
 #include <ngx_http.h>
 // --add-module=./src/mytest_config --add-module=./src/my_test_module --add-module=./src/mytest_subrequest --add-module=./src/mytest_upstream --add-module=./src/ngx_http_myfilter_module --with-debug --with-file-aio --add-module=./src/sendfile_test
+//  ./configure --with-debug --with-cc-opt='-g -O0' --prefix=/usr/local/nginx --with-zlib=../zlib-1.2.11 --with-pcre=../pcre-8.38 --with-openssl=../openssl-1.1.0g --add-module=./src/mytest_config --add-module=./src/my_test_module --add-module=./src/mytest_subrequest --add-module=./src/mytest_upstream --add-module=./src/ngx_http_myfilter_module --with-debug --add-module=./src/sendfile_test
 static void*
 ngx_http_mytest_config_create_loc_conf(ngx_conf_t *cf);
 

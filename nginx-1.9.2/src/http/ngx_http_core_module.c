@@ -2065,7 +2065,7 @@ ngx_http_core_find_config_phase(ngx_http_request_t *r,
     clcf = ngx_http_get_module_loc_conf(r, ngx_http_core_module);//ÓÃ¸ÕÕÒµ½µÄloc_conf£¬µÃµ½Æähttp_coreÄ£¿éµÄÎ»ÖÃÅäÖÃ¡£
 
     /* ¸Ãlocation{}±ØĞëÊÇÄÚ²¿ÖØ¶¨Ïò(indexÖØ¶¨Ïò ¡¢error_pagesµÈÖØ¶¨Ïòµ÷ÓÃngx_http_internal_redirect)ºóÆ¥ÅäµÄlocation{}£¬·ñÔò²»ÈÃ·ÃÎÊ¸Ãlocation */
-    if (!r->internal && clcf->internal) { //ÊÇ·ñÊÇiÔÚÄÚ²¿ÖØ¶¨Ïò£¬Èç¹ûÊÇ£¬ÖĞ¶ÏÂğ å
+    if (!r->internal && clcf->internal) { //ÊÇ·ñÊÇiÔÚÄÚ²¿ÖØ¶¨Ïò£¬Èç¹ûÊÇ£¬ÖĞ¶ÏÂğ ?
         ngx_http_finalize_request(r, NGX_HTTP_NOT_FOUND);
         return NGX_OK;
     }
@@ -3411,7 +3411,7 @@ ngx_http_output_filter(ngx_http_request_t *r, ngx_chain_t *in)
                    "http output filter \"%V?%V\"", &r->uri, &r->args);
 
     
-    rc = ngx_http_top_body_filter(r, in); //filterÉÏÃæµÄ×îºóÒ»¸ö¹³×ÓÊÇngx_http_write_filter
+    rc = ngx_http_top_body_filter(r, in); //filterÉÏÃæµÄ×îºóÒ»¸ö¹³×ÓÊÇ ngx_http_write_filter
 
     if (rc == NGX_ERROR) {
         /* NGX_ERROR may be returned by any filter */

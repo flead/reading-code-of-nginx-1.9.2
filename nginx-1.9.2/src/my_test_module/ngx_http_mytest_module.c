@@ -1,6 +1,7 @@
 #include <ngx_config.h>  
 #include <ngx_core.h>  
 #include <ngx_http.h>  
+//  ./configure --with-debug --with-cc-opt='-g -O0' --prefix=/usr/local/nginx --with-zlib=../zlib-1.2.11 --with-pcre=../pcre-8.38 --with-openssl=../openssl-1.1.0g --add-module=./src/mytest_config --add-module=./src/my_test_module --add-module=./src/mytest_subrequest --add-module=./src/mytest_upstream --add-module=./src/ngx_http_myfilter_module --with-debug --add-module=./src/sendfile_test
 
 /*
 在ngx_http_mytest_handler处理方法传来的ngx_http_request_t对象中就有这个请求的内存池管理对象，我们对内存池的操作都可以基于
@@ -18,7 +19,7 @@ Nginx在调用例子中的ngx_http_mytest_handler方法时是阻塞了整个Nginx
 */
 static ngx_int_t ngx_http_mytest_handler(ngx_http_request_t *r)  
 {  
-    printf("yang test:xxxxxxxxx <%s, %u>\n",  __FUNCTION__, __LINE__);
+    printf("lifei test:xxxxxxxxx <%s, %u>\n",  __FUNCTION__, __LINE__);
     // Only handle GET/HEAD method  ////必须是GET或者HEAD方法，否则返回405 Not Allowed
     if (!(r->method & (NGX_HTTP_GET | NGX_HTTP_HEAD))) {  
         return NGX_HTTP_NOT_ALLOWED;  
@@ -33,7 +34,7 @@ static ngx_int_t ngx_http_mytest_handler(ngx_http_request_t *r)
   
     // Send response header  
     ngx_str_t type = ngx_string("text/plain");  
-    ngx_str_t response = ngx_string("Hello World!!!11111111111");  
+    ngx_str_t response = ngx_string("Hello World, lifei!!!   11111111111");
     r->headers_out.status = NGX_HTTP_OK;  
     r->headers_out.content_length_n = response.len;  
     r->headers_out.content_type = type;  
