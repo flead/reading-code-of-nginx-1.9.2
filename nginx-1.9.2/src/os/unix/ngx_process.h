@@ -114,7 +114,7 @@ extern char         **ngx_os_argv;
 
 extern ngx_pid_t      ngx_pid;
 extern ngx_socket_t   ngx_channel;
-extern ngx_int_t      ngx_process_slot;
+extern ngx_int_t      ngx_process_slot;     //对于worker子进程它就是自己的pid，对于master父进程他是最小的儿子的pid
 extern ngx_int_t      ngx_last_process;
 extern ngx_process_t  ngx_processes[NGX_MAX_PROCESSES];
 

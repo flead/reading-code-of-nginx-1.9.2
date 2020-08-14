@@ -30,7 +30,8 @@ char           **ngx_os_argv; //指向nginx运行时候所带的参数，见ngx_save_argv
 
 //当前操作的进程在ngx_processes数组中的下标
 ngx_int_t        ngx_process_slot;
-ngx_socket_t     ngx_channel;  //存储所有子进程的数组  ngx_spawn_process中赋值  ngx_channel = ngx_processes[s].channel[1]
+ngx_socket_t     ngx_channel;  //对于子进程就是自己和兄弟们通信的端口id
+
 
 //ngx_processes数组中有意义的ngx_process_t元素中最大的下标
 ngx_int_t        ngx_last_process;
@@ -124,7 +125,7 @@ ngx_pid_t ngx_spawn_process(ngx_cycle_t *cycle, ngx_spawn_proc_pt proc, void *da
     }
 
 
-    if (respawn != NGX_PROCESS_DETACHED) { //不是分离的子进程      /* 不是热代码替换 */
+    if (respawn != NGX_PROCESS_DETACHED) {  /* 不是热代码替换 */
 
         /* Solaris 9 still has no AF_LOCAL */
        
@@ -138,10 +139,10 @@ ngx_pid_t ngx_spawn_process(ngx_cycle_t *cycle, ngx_spawn_proc_pt proc, void *da
           这个方法可以创建一对关联的套接字sv[2]。下面依次介绍它的4个参数：参数d表示域，在Linux下通常取值为AF UNIX；type取值为SOCK。
           STREAM或者SOCK。DGRAM，它表示在套接字上使用的是TCP还是UDP; protocol必须传递0；sv[2]是一个含有两个元素的整型数组，实际上就
           是两个套接字。当socketpair返回0时，sv[2]这两个套接字创建成功，否则socketpair返回一1表示失败。
-             当socketpair执行成功时，sv[2]这两个套接字具备下列关系：向sv[0]套接字写入数据，将可以从sv[l]套接字中读取到刚写入的数据；
-          同样，向sv[l]套接字写入数据，也可以从sv[0]中读取到写入的数据。通常，在父、子进程通信前，会先调用socketpair方法创建这样一组
-          套接字，在调用fork方法创建出子进程后，将会在父进程中关闭sv[l]套接字，仅使用sv[0]套接字用于向子进程发送数据以及接收子进程发
-          送来的数据：而在子进程中则关闭sv[0]套接字，仅使用sv[l]套接字既可以接收父进程发来的数据，也可以向父进程发送数据。
+             当socketpair执行成功时，sv[2]这两个套接字具备下列关系：向sv[0]套接字写入数据，将可以从sv[1]套接字中读取到刚写入的数据；
+          同样，向sv[1]套接字写入数据，也可以从sv[0]中读取到写入的数据。通常，在父、子进程通信前，会先调用socketpair方法创建这样一组
+          套接字，在调用fork方法创建出子进程后，将会在父进程中关闭sv[1]套接字，仅使用sv[0]套接字用于向子进程发送数据以及接收子进程发
+          送来的数据：而在子进程中则关闭sv[0]套接字，仅使用sv[1]套接字既可以接收父进程发来的数据，也可以向父进程发送数据。
           注意socketpair的协议族为AF_UNIX UNXI域
           */  
         if (socketpair(AF_UNIX, SOCK_STREAM, 0, ngx_processes[s].channel) == -1) //在ngx_worker_process_init中添加到事件集
@@ -251,14 +252,18 @@ ngx_pid_t ngx_spawn_process(ngx_cycle_t *cycle, ngx_spawn_proc_pt proc, void *da
 
     case 0: //子进程
         ngx_pid = ngx_getpid();  // 设置子进程ID  
-        //printf(" .....slave......pid:%u, %u\n", pid, ngx_pid); slave......pid:0, 14127
-        proc(cycle, data); // 调用proc回调函数，即ngx_worker_process_cycle。之后worker子进程从这里开始执行  
+
+        // !!! 从这里开始 worker 进程不再返回来执行以后的代码。 worker对应的proc()函数是一个死循环!
+        proc(cycle, data); // 调用proc回调函数，即ngx_worker_process_cycle。之后worker子进程从这里开始执行
+
         break;
 
     default: //父进程，但是这时候打印的pid为子进程ID
         //printf(" ......master.....pid:%u, %u\n", pid, ngx_pid); master.....pid:14127, 14126
         break;
     }
+
+    // !!! 以下都是 master 进程在执行的代码，子进程不会执行到这里。
 
     ngx_log_error(NGX_LOG_NOTICE, cycle->log, 0, "start %s %P", name, pid);
 

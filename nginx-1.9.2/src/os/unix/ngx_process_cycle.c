@@ -19,6 +19,7 @@ static void ngx_pass_open_channel(ngx_cycle_t *cycle, ngx_channel_t *ch);
 static void ngx_signal_worker_processes(ngx_cycle_t *cycle, int signo);
 static ngx_uint_t ngx_reap_children(ngx_cycle_t *cycle);
 static void ngx_master_process_exit(ngx_cycle_t *cycle);
+
 static void ngx_worker_process_cycle(ngx_cycle_t *cycle, void *data);
 static void ngx_worker_process_init(ngx_cycle_t *cycle, ngx_int_t worker);
 static void ngx_worker_process_exit(ngx_cycle_t *cycle);
@@ -319,7 +320,6 @@ ngx_master_process_cycle(ngx_cycle_t *cycle)
         *p++ = ' ';
         p = ngx_cpystrn(p, (u_char *) ngx_argv[i], size);
     }
-
     ngx_setproctitle(title); //修改进程名为title
 
     ccf = (ngx_core_conf_t *) ngx_get_conf(cycle->conf_ctx, ngx_core_module);
@@ -661,25 +661,27 @@ ngx_start_worker_processes(ngx_cycle_t *cycle, ngx_int_t n, ngx_int_t type)
     由master进程按照配置文件中worker进程的数目，启动这些子进程（也就是调用表8-2中的ngx_start_worker_processes方法）。
     */
     for (i = 0; i < n; i++) { //n为nginx.conf worker_processes中配置的进程数
-/*
-                                 |----------(ngx_worker_process_cycle->ngx_worker_process_init)
-    ngx_start_worker_processes---| ngx_processes[]相关的操作赋值流程
-                                 |----------ngx_pass_open_channel
-*/
-        ngx_spawn_process(cycle, ngx_worker_process_cycle,
-                          (void *) (intptr_t) i, "worker process", type);
+        /*
+                                         |----------(ngx_worker_process_cycle->ngx_worker_process_init)
+            ngx_start_worker_processes---| ngx_processes[]相关的操作赋值流程
+                                         |----------ngx_pass_open_channel
+        */
 
-        //向已经创建的worker进程广播当前创建worker进程信息。。。   
+        ngx_spawn_process(cycle, ngx_worker_process_cycle,
+                          (void *) (intptr_t) i, "worker process", type);   //type =  NGX_PROCESS_RESPAWN
+
+        //向已经创建的worker进程广播【新创建的worker进程】的信息。。。
+        ch.command = NGX_CMD_OPEN_CHANNEL;  //打开频道
         ch.pid = ngx_processes[ngx_process_slot].pid;
         ch.slot = ngx_process_slot;
-        ch.fd = ngx_processes[ngx_process_slot].channel[0]; //ngx_spawn_process中赋值
+        ch.fd = ngx_processes[ngx_process_slot].channel[0];  //在ngx_spawn_process()中赋值
 
         /*  
            这里每个子进程和父进程之间使用的是socketpair系统调用建立起来的全双工的socket  
-           channel[]在父子进程中各有一套，channel[0]为写端，channel[1]为读端  
+           channel[]在父子进程中各有一套，channel[0]为写端，channel[1]为读端
 
-            
-           父进程关闭socket[0],子进程关闭socket[1]，父进程从sockets[1]中读写，子进程从sockets[0]中读写，还是全双工形态。参考http://www.xuebuyuan.com/1691574.html
+           参考 http://www.xuebuyuan.com/1691574.html
+           父进程关闭socket[0],子进程关闭socket[1]，父进程从sockets[1]中读写，子进程从sockets[0]中读写，还是全双工形态。
            把该子进程的相关channel信息传递给已经创建好的其他所有子进程
          */
         ngx_pass_open_channel(cycle, &ch); 
@@ -1113,7 +1115,7 @@ ngx_worker_process_cycle(ngx_cycle_t *cycle, void *data) //data表示这是第几个wor
     ngx_setproctitle("worker process");
 
     /*
-    在ngx_worker_process_cycle有法中，通过检查ngx_exiting、ngx_terminate、ngx_quit、ngx_reopen这4个标志位来决定后续动作。
+    在ngx_worker_process_cycle 循环中，通过检查ngx_exiting、ngx_terminate、ngx_quit、ngx_reopen这4个标志位来决定后续动作。
     */
     for ( ;; ) {
 
@@ -1139,7 +1141,7 @@ ngx_worker_process_cycle(ngx_cycle_t *cycle, void *data) //data表示这是第几个wor
 
                 ngx_worker_process_exit(cycle); 
             }
-        }
+        } // end ngx_exiting
 
         //ngx_log_debug1(NGX_LOG_DEBUG_EVENT, cycle->log, 0, "worker(%P) cycle again", ngx_pid);
 
@@ -1268,14 +1270,12 @@ ngx_worker_process_init(ngx_cycle_t *cycle, ngx_int_t worker)
     }
 
 #if (NGX_HAVE_PR_SET_DUMPABLE)
-
     /* allow coredump after setuid() in Linux 2.4.x */
 
     if (prctl(PR_SET_DUMPABLE, 1, 0, 0, 0) == -1) {
         ngx_log_error(NGX_LOG_ALERT, cycle->log, ngx_errno,
                       "prctl(PR_SET_DUMPABLE) failed");
     }
-
 #endif
 
     if (ccf->working_directory.len) { //路径必须存在，否则返回错误
@@ -1371,13 +1371,17 @@ ngx_worker_process_init(ngx_cycle_t *cycle, ngx_int_t worker)
             continue;
         }
 
-        if (close(ngx_processes[n].channel[1]) == -1) { //关闭除本进程以外的其他所有进程的读端
+        //关闭除本进程以外的其他所有的子进程的channel[1].
+//        ngx_log_error(NGX_LOG_ALERT, cycle->log, ngx_errno,
+//                      "not error. jeff: ngx_processes[%d].channel[1]", n);
+        if (close(ngx_processes[n].channel[1]) == -1) {
             ngx_log_error(NGX_LOG_ALERT, cycle->log, ngx_errno,
                           "close() channel failed");
         }
     }
 
-    if (close(ngx_processes[ngx_process_slot].channel[0]) == -1) { //关闭本进程的写端 ，剩下的一条通道还是全双工的
+    // 关闭本进程的channel[0] , 它是给父进程用的.
+    if (close(ngx_processes[ngx_process_slot].channel[0]) == -1) {
         ngx_log_error(NGX_LOG_ALERT, cycle->log, ngx_errno,
                       "close() channel failed");
     }

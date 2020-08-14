@@ -1433,6 +1433,7 @@ ngx_get_cpu_affinity(ngx_uint_t n)
         return ccf->cpu_affinity[n];
     }
 
+    // 服 真会偷懒!  开发同学无需为运营同学的偷懒埋单!!! 哈哈
     return ccf->cpu_affinity[ccf->cpu_affinity_n - 1];
 }
 

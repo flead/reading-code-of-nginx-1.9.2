@@ -539,7 +539,7 @@ ngx_event_actions = ngx_select_module_ctx.actions;
 #define ngx_process_events   ngx_event_actions.process_events //ngx_process_events_and_timers中执行
 #define ngx_done_events      ngx_event_actions.done
 
-#define ngx_add_event        ngx_event_actions.add // ngx_epoll_add_event会调用该函数
+#define ngx_add_event        ngx_event_actions.add // ngx_epoll_add_event 会调用该函数
 #define ngx_del_event        ngx_event_actions.del
 
 #define ngx_add_conn         ngx_event_actions.add_conn //connect和accept返回的时候用到  已经channel读的时候用
