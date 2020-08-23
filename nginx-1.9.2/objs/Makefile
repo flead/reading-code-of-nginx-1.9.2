@@ -1,6 +1,6 @@
 
 CC =	cc
-CFLAGS =  -pipe  -O -Wall -Wextra -Wpointer-arith -Wconditional-uninitialized -Wno-unused-parameter -Wno-deprecated-declarations -Werror -g -g -O0
+CFLAGS =  -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -g -O0
 CPP =	cc -E
 LINK =	$(CC)
 
@@ -73,8 +73,8 @@ CORE_DEPS = src/core/nginx.h \
 	src/os/unix/ngx_os.h \
 	src/os/unix/ngx_user.h \
 	src/os/unix/ngx_process_cycle.h \
-	src/os/unix/ngx_darwin_config.h \
-	src/os/unix/ngx_darwin.h \
+	src/os/unix/ngx_linux_config.h \
+	src/os/unix/ngx_linux.h \
 	src/core/ngx_regex.h \
 	../pcre-8.38/pcre.h \
 	objs/ngx_auto_config.h
@@ -166,9 +166,9 @@ objs/nginx:	objs/src/core/nginx.o \
 	objs/src/os/unix/ngx_posix_init.o \
 	objs/src/os/unix/ngx_user.o \
 	objs/src/os/unix/ngx_process_cycle.o \
-	objs/src/os/unix/ngx_darwin_init.o \
-	objs/src/event/modules/ngx_kqueue_module.o \
-	objs/src/os/unix/ngx_darwin_sendfile_chain.o \
+	objs/src/os/unix/ngx_linux_init.o \
+	objs/src/event/modules/ngx_epoll_module.o \
+	objs/src/os/unix/ngx_linux_sendfile_chain.o \
 	objs/src/core/ngx_regex.o \
 	objs/src/http/ngx_http.o \
 	objs/src/http/ngx_http_core_module.o \
@@ -287,9 +287,9 @@ objs/nginx:	objs/src/core/nginx.o \
 	objs/src/os/unix/ngx_posix_init.o \
 	objs/src/os/unix/ngx_user.o \
 	objs/src/os/unix/ngx_process_cycle.o \
-	objs/src/os/unix/ngx_darwin_init.o \
-	objs/src/event/modules/ngx_kqueue_module.o \
-	objs/src/os/unix/ngx_darwin_sendfile_chain.o \
+	objs/src/os/unix/ngx_linux_init.o \
+	objs/src/event/modules/ngx_epoll_module.o \
+	objs/src/os/unix/ngx_linux_sendfile_chain.o \
 	objs/src/core/ngx_regex.o \
 	objs/src/http/ngx_http.o \
 	objs/src/http/ngx_http_core_module.o \
@@ -346,7 +346,7 @@ objs/nginx:	objs/src/core/nginx.o \
 	objs/addon/ngx_http_myfilter_module/ngx_http_myfilter_module.o \
 	objs/addon/sendfile_test/sendfile_test.o \
 	objs/ngx_modules.o \
-	../pcre-8.38/.libs/libpcre.a ../zlib-1.2.11/libz.a
+	-lpthread -lcrypt ../pcre-8.38/.libs/libpcre.a ../zlib-1.2.11/libz.a
 	
 
 
@@ -763,25 +763,25 @@ objs/src/os/unix/ngx_process_cycle.o:	$(CORE_DEPS) \
 		src/os/unix/ngx_process_cycle.c
 
 
-objs/src/os/unix/ngx_darwin_init.o:	$(CORE_DEPS) \
-	src/os/unix/ngx_darwin_init.c
+objs/src/os/unix/ngx_linux_init.o:	$(CORE_DEPS) \
+	src/os/unix/ngx_linux_init.c
 	$(CC) -c -g $(CFLAGS) $(CORE_INCS) \
-		-o objs/src/os/unix/ngx_darwin_init.o \
-		src/os/unix/ngx_darwin_init.c
+		-o objs/src/os/unix/ngx_linux_init.o \
+		src/os/unix/ngx_linux_init.c
 
 
-objs/src/event/modules/ngx_kqueue_module.o:	$(CORE_DEPS) \
-	src/event/modules/ngx_kqueue_module.c
+objs/src/event/modules/ngx_epoll_module.o:	$(CORE_DEPS) \
+	src/event/modules/ngx_epoll_module.c
 	$(CC) -c -g $(CFLAGS) $(CORE_INCS) \
-		-o objs/src/event/modules/ngx_kqueue_module.o \
-		src/event/modules/ngx_kqueue_module.c
+		-o objs/src/event/modules/ngx_epoll_module.o \
+		src/event/modules/ngx_epoll_module.c
 
 
-objs/src/os/unix/ngx_darwin_sendfile_chain.o:	$(CORE_DEPS) \
-	src/os/unix/ngx_darwin_sendfile_chain.c
+objs/src/os/unix/ngx_linux_sendfile_chain.o:	$(CORE_DEPS) \
+	src/os/unix/ngx_linux_sendfile_chain.c
 	$(CC) -c -g $(CFLAGS) $(CORE_INCS) \
-		-o objs/src/os/unix/ngx_darwin_sendfile_chain.o \
-		src/os/unix/ngx_darwin_sendfile_chain.c
+		-o objs/src/os/unix/ngx_linux_sendfile_chain.o \
+		src/os/unix/ngx_linux_sendfile_chain.c
 
 
 objs/src/core/ngx_regex.o:	$(CORE_DEPS) \
@@ -1174,7 +1174,7 @@ objs/addon/sendfile_test/sendfile_test.o:	$(ADDON_DEPS) \
 ../pcre-8.38/Makefile:	objs/Makefile
 	cd ../pcre-8.38 \
 	&& if [ -f Makefile ]; then $(MAKE) distclean; fi \
-	&& CC="$(CC)" CFLAGS="-O2 -pipe " \
+	&& CC="$(CC)" CFLAGS="-O2 -fomit-frame-pointer -pipe " \
 	./configure --disable-shared 
 
 ../pcre-8.38/.libs/libpcre.a:	../pcre-8.38/Makefile
@@ -1185,7 +1185,7 @@ objs/addon/sendfile_test/sendfile_test.o:	$(ADDON_DEPS) \
 ../openssl-1.1.0g/.openssl/include/openssl/ssl.h:	objs/Makefile
 	cd ../openssl-1.1.0g \
 	&& if [ -f Makefile ]; then $(MAKE) clean; fi \
-	&& ./config --prefix=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/../openssl-1.1.0g/.openssl no-shared  \
+	&& ./config --prefix=/home/macos/code/nginx/nginx-1.9.2/../openssl-1.1.0g/.openssl no-shared  \
 	&& $(MAKE) \
 	&& $(MAKE) install LIBDIR=lib
 
@@ -1193,7 +1193,7 @@ objs/addon/sendfile_test/sendfile_test.o:	$(ADDON_DEPS) \
 ../zlib-1.2.11/libz.a:	objs/Makefile
 	cd ../zlib-1.2.11 \
 	&& $(MAKE) distclean \
-	&& CFLAGS="-O2 -pipe " CC="$(CC)" \
+	&& CFLAGS="-O2 -fomit-frame-pointer -pipe " CC="$(CC)" \
 		./configure \
 	&& $(MAKE) libz.a
 

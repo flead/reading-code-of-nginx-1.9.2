@@ -6,7 +6,7 @@
 
 
 #ifndef NGX_COMPILER
-#define NGX_COMPILER  "clang 11.0.3 (clang-1103.0.32.62)"
+#define NGX_COMPILER  "gcc 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) "
 #endif
 
 
@@ -25,8 +25,8 @@
 #endif
 
 
-#ifndef NGX_HAVE_KQUEUE
-#define NGX_HAVE_KQUEUE  1
+#ifndef NGX_HAVE_EPOLL
+#define NGX_HAVE_EPOLL  1
 #endif
 
 
@@ -35,8 +35,13 @@
 #endif
 
 
-#ifndef NGX_HAVE_TIMER_EVENT
-#define NGX_HAVE_TIMER_EVENT  1
+#ifndef NGX_HAVE_EPOLLRDHUP
+#define NGX_HAVE_EPOLLRDHUP  1
+#endif
+
+
+#ifndef NGX_HAVE_O_PATH
+#define NGX_HAVE_O_PATH  1
 #endif
 
 
@@ -45,8 +50,23 @@
 #endif
 
 
-#ifndef NGX_DARWIN_ATOMIC
-#define NGX_DARWIN_ATOMIC  1
+#ifndef NGX_HAVE_SENDFILE64
+#define NGX_HAVE_SENDFILE64  1
+#endif
+
+
+#ifndef NGX_HAVE_PR_SET_DUMPABLE
+#define NGX_HAVE_PR_SET_DUMPABLE  1
+#endif
+
+
+#ifndef NGX_HAVE_SCHED_SETAFFINITY
+#define NGX_HAVE_SCHED_SETAFFINITY  1
+#endif
+
+
+#ifndef NGX_HAVE_GNU_CRYPT_R
+#define NGX_HAVE_GNU_CRYPT_R  1
 #endif
 
 
@@ -63,8 +83,18 @@
 #define NGX_KQUEUE_UDATA_T  (void *)
 
 
-#ifndef NGX_HAVE_F_NOCACHE
-#define NGX_HAVE_F_NOCACHE  1
+#ifndef NGX_HAVE_POSIX_FADVISE
+#define NGX_HAVE_POSIX_FADVISE  1
+#endif
+
+
+#ifndef NGX_HAVE_O_DIRECT
+#define NGX_HAVE_O_DIRECT  1
+#endif
+
+
+#ifndef NGX_HAVE_ALIGNED_DIRECTIO
+#define NGX_HAVE_ALIGNED_DIRECTIO  1
 #endif
 
 
@@ -88,8 +118,38 @@
 #endif
 
 
+#ifndef NGX_HAVE_DEFERRED_ACCEPT
+#define NGX_HAVE_DEFERRED_ACCEPT  1
+#endif
+
+
+#ifndef NGX_HAVE_KEEPALIVE_TUNABLE
+#define NGX_HAVE_KEEPALIVE_TUNABLE  1
+#endif
+
+
 #ifndef NGX_HAVE_TCP_FASTOPEN
 #define NGX_HAVE_TCP_FASTOPEN  1
+#endif
+
+
+#ifndef NGX_HAVE_TCP_INFO
+#define NGX_HAVE_TCP_INFO  1
+#endif
+
+
+#ifndef NGX_HAVE_ACCEPT4
+#define NGX_HAVE_ACCEPT4  1
+#endif
+
+
+#ifndef NGX_HAVE_EVENTFD
+#define NGX_HAVE_EVENTFD  1
+#endif
+
+
+#ifndef NGX_HAVE_SYS_EVENTFD_H
+#define NGX_HAVE_SYS_EVENTFD_H  1
 #endif
 
 
@@ -159,7 +219,7 @@
 
 
 #ifndef NGX_SYS_NERR
-#define NGX_SYS_NERR  107
+#define NGX_SYS_NERR  135
 #endif
 
 
@@ -173,13 +233,28 @@
 #endif
 
 
+#ifndef NGX_HAVE_MEMALIGN
+#define NGX_HAVE_MEMALIGN  1
+#endif
+
+
 #ifndef NGX_HAVE_MAP_ANON
 #define NGX_HAVE_MAP_ANON  1
 #endif
 
 
+#ifndef NGX_HAVE_MAP_DEVZERO
+#define NGX_HAVE_MAP_DEVZERO  1
+#endif
+
+
 #ifndef NGX_HAVE_SYSVSHM
 #define NGX_HAVE_SYSVSHM  1
+#endif
+
+
+#ifndef NGX_HAVE_POSIX_SEM
+#define NGX_HAVE_POSIX_SEM  1
 #endif
 
 
@@ -195,11 +270,6 @@
 
 #ifndef NGX_HAVE_GMTOFF
 #define NGX_HAVE_GMTOFF  1
-#endif
-
-
-#ifndef NGX_HAVE_D_NAMLEN
-#define NGX_HAVE_D_NAMLEN  1
 #endif
 
 

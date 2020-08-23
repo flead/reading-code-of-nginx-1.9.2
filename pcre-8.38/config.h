@@ -59,7 +59,7 @@ sure both macros are undefined; an emulation function will then be used. */
 /* #undef HAVE_BITS_TYPE_TRAITS_H */
 
 /* Define to 1 if you have the <bzlib.h> header file. */
-#define HAVE_BZLIB_H 1
+/* #undef HAVE_BZLIB_H */
 
 /* Define to 1 if you have the <dirent.h> header file. */
 #define HAVE_DIRENT_H 1
@@ -149,7 +149,7 @@ sure both macros are undefined; an emulation function will then be used. */
 /* #undef HAVE_WINDOWS_H */
 
 /* Define to 1 if you have the <zlib.h> header file. */
-#define HAVE_ZLIB_H 1
+/* #undef HAVE_ZLIB_H */
 
 /* Define to 1 if you have `_strtoi64'. */
 /* #undef HAVE__STRTOI64 */

@@ -15,13 +15,15 @@ tar -zxvf pcre-8.38.tar.gz
 tar -zxvf openssl-1.1.0g.tar.gz
 
 3. 进入nginx目录后执行3个命令
-./configure --prefix=/usr/local/nginx --with-zlib=../zlib-1.2.11 --with-pcre=../pcre-8.38 --with-openssl=../openssl-1.1.0g
+./configure --with-debug --with-cc-opt='-g -O0' --prefix=/usr/local/nginx --with-zlib=../zlib-1.2.11 --with-pcre=../pcre-8.38 --with-openssl=../openssl-1.1.0g
 
 make
 
 sudo make install
 
 以上执行完毕后， nginx 就被安装到 /usr/local/nginx 目录下
+Tips： 如果编译失败,检查 obj/Makeifle文件中的CFLAGS标记，是否有-Werror
+CFLAGS =  -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -g -O0
 ```
 
 ### Nginx的启停
