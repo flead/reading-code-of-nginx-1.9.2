@@ -293,8 +293,8 @@ ngx_master_process_cycle(ngx_cycle_t *cycle)
      解除屏蔽后, 信号将被递送, 不会丢失
      */ // 设置这些信号都阻塞，等我们sigpending调用才告诉我有这些事件
      
-    if (sigprocmask(SIG_BLOCK, &set, NULL) == -1) {   //参考下面的sigsuspend     
-    //父子进程的继承关系可以参考:http://blog.chinaunix.net/uid-20011314-id-1987626.html
+    if (sigprocmask(SIG_BLOCK, &set, NULL) == -1) {   //参考下面的 sigsuspend
+    //父子进程的继承关系可以参考: http://blog.chinaunix.net/uid-20011314-id-1987626.html
         ngx_log_error(NGX_LOG_ALERT, cycle->log, ngx_errno,
                       "sigprocmask() failed");
     }
@@ -418,7 +418,7 @@ ngx_noaccept，决定执行不同的分支流程，并循环执行（注意，每次一个循环执行完毕后进
         从上面的(2)步骤可以看出在处理函数中执行信号中断函数的嘿嘿，由于这时候已经恢复了原来的mask(也就是上面sigprocmask设置的掩码集)
         所以在信号处理函数中不会再次引起接收信号，只能在该while()循环再次走到sigsuspend的时候引起信号中断，从而避免了同一时刻多次中断同一信号
         */
-        //nginx sigsuspend分析，参考http://weakyon.com/2015/05/14/learning-of-sigsuspend.html
+        //nginx sigsuspend分析，参考 http://weakyon.com/2015/05/14/learning-of-sigsuspend.html
         sigsuspend(&set); //等待定时器超时，通过ngx_init_signals执行ngx_signal_handler中的SIGALRM信号，信号处理函数返回后，继续该函数后面的操作
 
         ngx_time_update();

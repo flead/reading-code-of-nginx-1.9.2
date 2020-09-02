@@ -14,7 +14,7 @@
 
 #define NGX_WRITE_SHUTDOWN SHUT_WR
 
-typedef int  ngx_socket_t;
+typedef int  ngx_socket_t;   // 这不是一个变量!!! 别看花眼!
 
 #define ngx_socket          socket
 #define ngx_socket_n        "socket()"

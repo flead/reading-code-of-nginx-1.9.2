@@ -141,7 +141,7 @@ ngx_cycle_t结构体支持的主要方法
 ┃                                    ┃                                  ┃                                    ┃
 ┗━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━┛
 */
-//http://tech.uc.cn/?p=300 参数解析相关数据结构参考
+// http://tech.uc.cn/?p=300 参数解析相关数据结构参考
 //初始化参考ngx_init_cycle，最终有一个全局类型的ngx_cycle_s，即ngx_cycle,  ngx_conf_s中包含该类型成员cycle
 struct ngx_cycle_s {
     /*     保存着所有模块存储配置项的结构体指针，     它首先是一个数组，数组大小为ngx_max_module，正好与Nginx的module个数一样；     
@@ -156,7 +156,7 @@ struct ngx_cycle_s {
     /*
     图形化参考:深入理解NGINX中的图9-2(P302)  图10-1(P353) 图10-1(P356) 图10-1(P359) 图4-2(P145)
     ngx_http_conf_ctx_t、ngx_http_core_main_conf_t、ngx_http_core_srv_conf_t、ngx_http_core_loc_conf_s和ngx_cycle_s->conf_ctx的关系见:
-    Nginx的http配置结构体的组织结构:http://tech.uc.cn/?p=300
+    Nginx的http配置结构体的组织结构: http://tech.uc.cn/?p=300
     */ 
     void                  ****conf_ctx; //有多少个模块就会有多少个指向这些模块的指针，见ngx_init_cycle   ngx_max_module
     ngx_pool_t               *pool; // 内存池
@@ -202,13 +202,13 @@ struct ngx_cycle_s {
 //ngx_http_optimize_servers->ngx_http_init_listening->ngx_http_add_listening->ngx_create_listening把解析到的listen配置项信息添加到cycle->listening中
     //通过"listen"配置创建ngx_listening_t加入到该数组中
     //注意，有多少个worker进程就会复制多少个ngx_listening_t, 见ngx_clone_listening
-    ngx_array_t               listening;// 动态数组，每个数组元素储存着ngx_listening_t成员，表示监听端口及相关的参数
+    ngx_array_t               listening;// 动态数组，每个数组元素储存着 ngx_listening_t 成员，表示监听端口及相关的参数
 
     /*    动态数组容器，它保存着nginx所有要操作的目录。如果有目录不存在，就会试图创建，而创建目录失败就会导致nginx启动失败。    */
     //通过解析配置文件获取到的路径添加到该数组，例如nginx.conf中的client_body_temp_path proxy_temp_path，参考ngx_conf_set_path_slot
     //这些配置可能设置重复的路径，因此不需要重复创建，通过ngx_add_path检测添加的路径是否重复，不重复则添加到paths中
     ngx_array_t               paths;//数组成员 nginx_path_t ，该数组在ngx_init_cycle中预分配空间
-    ngx_array_t               config_dump; //该数组在ngx_init_cycle中预分配空间
+    ngx_array_t               config_dump; //该数组在 ngx_init_cycle 中预分配空间
 
     /*    单链表容器，元素类型是ngx_open_file_t 结构体，它表示nginx已经打开的所有文件。事实上，nginx框架不会向open_files链表中添加文件。    
     而是由对此感兴趣的模块向其中添加文件路径名，nginx框架会在ngx_init_cycle 方法中打开这些文件 ，先通过ngx_conf_open_file设置好数组文件，然后
@@ -221,7 +221,7 @@ struct ngx_cycle_s {
 
     //最开始free_connection_n=connection_n，见ngx_event_process_init
     ngx_uint_t                connection_n;// 当前进程中所有链接对象的总数，与成员配合使用
-    ngx_uint_t                files_n; //每个进程能够打开的最多文件数  赋值见ngx_event_process_init
+    ngx_uint_t                files_n; //每个进程能够打开的最多文件数  赋值见 ngx_event_process_init
 
     /*
     从图9-1中可以看出，在ngx_cycle_t中的connections和free_connections达两个成员构成了一个连接池，其中connections指向整个连接池数组的首部，
@@ -292,7 +292,7 @@ typedef struct { //从ngx_cycle_s->conf_ctx[ngx_core_module.index]指向这里
      ngx_str_t                working_directory;//working_directory /var/yyz/corefile/;  coredump存放路径
      ngx_str_t                lock_file;
 
-     ngx_str_t                pid; //默认NGX_PID_PATH，主进程名
+     ngx_str_t                pid; //默认 NGX_PID_PATH，主进程名
      ngx_str_t                oldpid;//NGX_PID_PATH+NGX_OLDPID_EXT  热升级nginx进程的时候用
 
     //数组第一个成员是TZ字符串

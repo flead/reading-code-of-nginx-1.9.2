@@ -609,11 +609,11 @@ ngx_init_cycle(ngx_cycle_t *old_cycle)
     /* handle the listening sockets */
 /*
 ËùÓĞµÄÄ£¿é¶¼ÒÑ¾­½âÎö³ö×Ô¼ºĞèÒª¼àÌıµÄ¶Ë¿Ú£¬ÈçHTTPÄ£¿éÒÑ¾­ÔÚ½âÎöhttp{£®£®£®}ÅäÖÃÏîÊ±µÃµ½ËüÒª¼àÌıµÄ¶Ë¿Ú£¬²¢Ìí¼Óµ½
-listeningÊı×éÖĞÁË¡£ÕâÒ»²½Öè¾ÍÊÇ°´ÕÕlisteningÊı×éÖĞµÄÃ¿Ò»¸öngx_listening_tÔªËØÉèÖÃsocket¾ä±ú²¢¼àÌı¶Ë¿Ú£¨Êµ¼ÊÉÏ£¬ÕâÒ»²½ÖèµÄÖ÷Òª¹¤×÷¾ÍÊÇµ÷
-ÓÃ±í8-2ÖĞµÄngx_open_listening_sockets·½·¨£©¡£
+listeningÊı×éÖĞÁË¡£ÕâÒ»²½Öè¾ÍÊÇ°´ÕÕlisteningÊı×éÖĞµÄÃ¿Ò»¸ö ngx_listening_t ÔªËØÉèÖÃsocket¾ä±ú²¢¼àÌı¶Ë¿Ú£¨Êµ¼ÊÉÏ£¬ÕâÒ»²½ÖèµÄÖ÷Òª¹¤×÷¾ÍÊÇµ÷
+ÓÃ±í8-2ÖĞµÄ ngx_open_listening_sockets ·½·¨£©¡£
 */
     if (old_cycle->listening.nelts) {
-        ls = old_cycle->listening.elts; //¾ÉµÄlisten,ÈçÈÈÆô¶¯¼Ì³Ğ¹ıÀ´µÄsock,¼ûngx_add_inherited_sockets
+        ls = old_cycle->listening.elts; //¾ÉµÄlisten,ÈçÈÈÆô¶¯¼Ì³Ğ¹ıÀ´µÄsock,¼û ngx_add_inherited_sockets
         for (i = 0; i < old_cycle->listening.nelts; i++) {
             ls[i].remain = 0;
         }
@@ -621,11 +621,12 @@ listeningÊı×éÖĞÁË¡£ÕâÒ»²½Öè¾ÍÊÇ°´ÕÕlisteningÊı×éÖĞµÄÃ¿Ò»¸öngx_listening_tÔªËØÉèÖ
         nls = cycle->listening.elts; //´ÓÅäÖÃÎÄ¼şnginx.confÖĞlistenµÄserver ipºÍ¶Ë¿Ú»ñÈ¡µ½µÄĞÅÏ¢
         for (n = 0; n < cycle->listening.nelts; n++) {
 
+            // ÏÂÃæÕâ¸öforÑ­»·²»ÓÃÕ¹¿ª,ÊÇ·ÏÆú´úÂë
             for (i = 0; i < old_cycle->listening.nelts; i++) {
+                // Õâ¸öforÑ­»··ÏÁË, ¾ÉµÄfdµÄ ls[i].remain ÔÚÇ°Ãæ±»Ç¿ÖÆÖÃÎª0ÁË
                 if (ls[i].ignore) {
                     continue;
                 }
-
                 if (ls[i].remain) {
                     continue;
                 }
@@ -703,7 +704,9 @@ listeningÊı×éÖĞÁË¡£ÕâÒ»²½Öè¾ÍÊÇ°´ÕÕlisteningÊı×éÖĞµÄÃ¿Ò»¸öngx_listening_tÔªËØÉèÖ
             }
         }
 
-    } else {
+    }
+    else    // Ã»ÓĞ¾ÉµÄ socket, ÊÇÈ«ĞÂÆô¶¯.
+    {
         ls = cycle->listening.elts;
         for (i = 0; i < cycle->listening.nelts; i++) {
             ls[i].open = 1;

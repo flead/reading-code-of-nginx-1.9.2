@@ -456,7 +456,6 @@ socket监听状况，还是需要写到日志文件中去的。在nginx的main函数中，首先会调用ngx_l
         
     } else { //一般都是走到这里，master方式
         ngx_master_process_cycle(cycle);
-
     }
 
     return 0;

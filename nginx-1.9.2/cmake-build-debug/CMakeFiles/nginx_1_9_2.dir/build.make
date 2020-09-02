@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2
+CMAKE_SOURCE_DIR = /Volumes/d/code/nginx/nginx-1.9.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug
+CMAKE_BINARY_DIR = /Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/nginx_1_9_2.dir/depend.make
@@ -79,3409 +79,3409 @@ include CMakeFiles/nginx_1_9_2.dir/flags.make
 
 CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.o: ../src/core/nginx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/nginx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/nginx.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/nginx.c > CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/nginx.c > CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/nginx.c -o CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/nginx.c -o CMakeFiles/nginx_1_9_2.dir/src/core/nginx.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.o: ../src/core/ngx_array.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_array.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_array.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_array.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_array.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_array.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_array.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.o: ../src/core/ngx_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_buf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_buf.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_buf.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_buf.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_buf.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_buf.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_buf.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.o: ../src/core/ngx_conf_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_conf_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_conf_file.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_conf_file.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_conf_file.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_conf_file.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_conf_file.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_conf_file.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.o: ../src/core/ngx_connection.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_connection.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_connection.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_connection.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_connection.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_connection.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_connection.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_connection.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.o: ../src/core/ngx_cpuinfo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_cpuinfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_cpuinfo.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_cpuinfo.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_cpuinfo.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_cpuinfo.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_cpuinfo.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cpuinfo.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.o: ../src/core/ngx_crc32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_crc32.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_crc32.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_crc32.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_crc32.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_crc32.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crc32.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.o: ../src/core/ngx_crypt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_crypt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_crypt.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_crypt.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_crypt.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_crypt.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_crypt.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_crypt.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.o: ../src/core/ngx_cycle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_cycle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_cycle.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_cycle.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_cycle.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_cycle.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_cycle.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_cycle.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.o: ../src/core/ngx_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_file.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_file.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_file.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_file.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_file.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_file.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.o: ../src/core/ngx_hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_hash.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_hash.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_hash.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_hash.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_hash.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_hash.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.o: ../src/core/ngx_inet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_inet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_inet.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_inet.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_inet.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_inet.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_inet.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_inet.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.o: ../src/core/ngx_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_list.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_list.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_list.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_list.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_list.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_list.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.o: ../src/core/ngx_log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_log.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_log.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_log.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_log.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_log.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_log.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.o: ../src/core/ngx_md5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_md5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_md5.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_md5.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_md5.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_md5.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_md5.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_md5.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.o: ../src/core/ngx_murmurhash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_murmurhash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_murmurhash.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_murmurhash.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_murmurhash.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_murmurhash.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_murmurhash.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_murmurhash.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.o: ../src/core/ngx_open_file_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_open_file_cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_open_file_cache.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_open_file_cache.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_open_file_cache.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_open_file_cache.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_open_file_cache.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_open_file_cache.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.o: ../src/core/ngx_output_chain.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_output_chain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_output_chain.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_output_chain.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_output_chain.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_output_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_output_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_output_chain.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.o: ../src/core/ngx_palloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_palloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_palloc.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_palloc.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_palloc.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_palloc.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_palloc.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_palloc.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.o: ../src/core/ngx_parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_parse.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_parse.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_parse.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_parse.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_parse.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.o: ../src/core/ngx_parse_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_parse_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_parse_time.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_parse_time.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_parse_time.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_parse_time.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_parse_time.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_parse_time.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.o: ../src/core/ngx_proxy_protocol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_proxy_protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_proxy_protocol.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_proxy_protocol.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_proxy_protocol.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_proxy_protocol.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_proxy_protocol.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_proxy_protocol.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.o: ../src/core/ngx_queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_queue.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_queue.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_queue.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_queue.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_queue.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_queue.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.o: ../src/core/ngx_radix_tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_radix_tree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_radix_tree.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_radix_tree.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_radix_tree.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_radix_tree.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_radix_tree.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_radix_tree.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.o: ../src/core/ngx_rbtree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_rbtree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_rbtree.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_rbtree.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_rbtree.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_rbtree.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_rbtree.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rbtree.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.o: ../src/core/ngx_regex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_regex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_regex.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_regex.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_regex.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_regex.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_regex.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_regex.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.o: ../src/core/ngx_resolver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_resolver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_resolver.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_resolver.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_resolver.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_resolver.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_resolver.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_resolver.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.o: ../src/core/ngx_rwlock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_rwlock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_rwlock.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_rwlock.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_rwlock.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_rwlock.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_rwlock.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_rwlock.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.o: ../src/core/ngx_shmtx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_shmtx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_shmtx.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_shmtx.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_shmtx.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_shmtx.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_shmtx.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_shmtx.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.o: ../src/core/ngx_slab.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_slab.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_slab.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_slab.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_slab.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_slab.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_slab.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_slab.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.o: ../src/core/ngx_spinlock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_spinlock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_spinlock.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_spinlock.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_spinlock.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_spinlock.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_spinlock.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_spinlock.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.o: ../src/core/ngx_string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_string.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_string.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_string.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_string.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_string.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_string.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.o: ../src/core/ngx_syslog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_syslog.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_syslog.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_syslog.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_syslog.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_syslog.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_syslog.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_syslog.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.o: ../src/core/ngx_thread_pool.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_thread_pool.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_thread_pool.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_thread_pool.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_thread_pool.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_thread_pool.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_thread_pool.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_thread_pool.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.o: ../src/core/ngx_times.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_times.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_times.c
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_times.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_times.c > CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/core/ngx_times.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/core/ngx_times.c -o CMakeFiles/nginx_1_9_2.dir/src/core/ngx_times.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.o: ../src/echo-nginx-module-master/src/ngx_http_echo_echo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_echo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_echo.c
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_echo.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_echo.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_echo.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_echo.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_echo.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.o: ../src/echo-nginx-module-master/src/ngx_http_echo_filter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_filter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_filter.c
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_filter.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_filter.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_filter.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_filter.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_filter.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.o: ../src/echo-nginx-module-master/src/ngx_http_echo_foreach.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_foreach.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.o: ../src/echo-nginx-module-master/src/ngx_http_echo_handler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_handler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_handler.c
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_handler.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_handler.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_handler.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.o: ../src/echo-nginx-module-master/src/ngx_http_echo_location.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_location.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_location.c
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_location.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_location.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_location.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_location.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_location.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.o: ../src/echo-nginx-module-master/src/ngx_http_echo_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_module.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_module.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_module.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_module.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.o: ../src/echo-nginx-module-master/src/ngx_http_echo_request_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_request_info.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.o: ../src/echo-nginx-module-master/src/ngx_http_echo_sleep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_sleep.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.o: ../src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_subrequest.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.o: ../src/echo-nginx-module-master/src/ngx_http_echo_timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_timer.c
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_timer.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_timer.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_timer.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_timer.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_timer.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.o: ../src/echo-nginx-module-master/src/ngx_http_echo_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_util.c
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_util.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_util.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_util.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_util.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_util.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.o: ../src/echo-nginx-module-master/src/ngx_http_echo_var.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_var.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_var.c
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_var.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_var.c > CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_var.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/echo-nginx-module-master/src/ngx_http_echo_var.c -o CMakeFiles/nginx_1_9_2.dir/src/echo-nginx-module-master/src/ngx_http_echo_var.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.o: ../src/event/modules/ngx_devpoll_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_devpoll_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_devpoll_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_devpoll_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_devpoll_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_devpoll_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_devpoll_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_devpoll_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.o: ../src/event/modules/ngx_epoll_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_epoll_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_epoll_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_epoll_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_epoll_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_epoll_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_epoll_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_epoll_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.o: ../src/event/modules/ngx_eventport_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_eventport_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_eventport_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_eventport_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_eventport_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_eventport_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_eventport_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_eventport_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.o: ../src/event/modules/ngx_kqueue_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_kqueue_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_kqueue_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_kqueue_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_kqueue_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_kqueue_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_kqueue_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_kqueue_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.o: ../src/event/modules/ngx_poll_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_poll_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_poll_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_poll_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_poll_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_poll_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_poll_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_poll_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.o: ../src/event/modules/ngx_select_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_select_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_select_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_select_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_select_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_select_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_select_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_select_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.o: ../src/event/modules/ngx_win32_select_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_win32_select_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_win32_select_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_win32_select_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_win32_select_module.c > CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/modules/ngx_win32_select_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/modules/ngx_win32_select_module.c -o CMakeFiles/nginx_1_9_2.dir/src/event/modules/ngx_win32_select_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.o: ../src/event/ngx_event.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.o: ../src/event/ngx_event_accept.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_accept.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_accept.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_accept.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_accept.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_accept.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_accept.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_accept.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.o: ../src/event/ngx_event_connect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_connect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_connect.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_connect.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_connect.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_connect.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_connect.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_connect.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.o: ../src/event/ngx_event_openssl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_openssl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_openssl.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_openssl.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_openssl.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_openssl.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_openssl.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.o: ../src/event/ngx_event_openssl_stapling.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_openssl_stapling.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_openssl_stapling.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_openssl_stapling.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_openssl_stapling.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_openssl_stapling.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_openssl_stapling.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_openssl_stapling.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.o: ../src/event/ngx_event_pipe.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_pipe.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_pipe.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_pipe.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_pipe.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_pipe.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_pipe.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_pipe.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.o: ../src/event/ngx_event_posted.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_posted.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_posted.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_posted.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_posted.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_posted.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_posted.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_posted.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.o: ../src/event/ngx_event_timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_timer.c
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_timer.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_timer.c > CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/event/ngx_event_timer.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/event/ngx_event_timer.c -o CMakeFiles/nginx_1_9_2.dir/src/event/ngx_event_timer.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.o: ../src/http/modules/perl/ngx_http_perl_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/perl/ngx_http_perl_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/perl/ngx_http_perl_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/perl/ngx_http_perl_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/perl/ngx_http_perl_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/perl/ngx_http_perl_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/perl/ngx_http_perl_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/perl/ngx_http_perl_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.o: ../src/http/modules/ngx_http_access_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_access_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_access_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_access_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_access_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_access_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_access_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_access_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.o: ../src/http/modules/ngx_http_addition_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_addition_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_addition_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_addition_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_addition_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_addition_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_addition_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_addition_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.o: ../src/http/modules/ngx_http_auth_basic_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_auth_basic_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_auth_basic_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_auth_basic_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_auth_basic_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_auth_basic_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_auth_basic_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_basic_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.o: ../src/http/modules/ngx_http_auth_request_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_auth_request_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_auth_request_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_auth_request_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_auth_request_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_auth_request_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_auth_request_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_auth_request_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.o: ../src/http/modules/ngx_http_autoindex_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_autoindex_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_autoindex_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_autoindex_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_autoindex_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_autoindex_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_autoindex_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_autoindex_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.o: ../src/http/modules/ngx_http_browser_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_browser_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_browser_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_browser_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_browser_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_browser_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_browser_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_browser_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.o: ../src/http/modules/ngx_http_charset_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_charset_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_charset_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_charset_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_charset_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_charset_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_charset_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_charset_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.o: ../src/http/modules/ngx_http_chunked_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_chunked_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_chunked_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_chunked_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_chunked_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_chunked_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_chunked_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_chunked_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.o: ../src/http/modules/ngx_http_dav_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_dav_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_dav_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_dav_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_dav_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_dav_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_dav_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_dav_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.o: ../src/http/modules/ngx_http_degradation_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_degradation_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_degradation_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_degradation_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_degradation_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_degradation_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_degradation_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_degradation_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.o: ../src/http/modules/ngx_http_empty_gif_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_empty_gif_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_empty_gif_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_empty_gif_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_empty_gif_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_empty_gif_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_empty_gif_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_empty_gif_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.o: ../src/http/modules/ngx_http_fastcgi_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_fastcgi_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_fastcgi_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_fastcgi_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_fastcgi_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_fastcgi_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_fastcgi_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_fastcgi_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.o: ../src/http/modules/ngx_http_flv_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_flv_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_flv_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_flv_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_flv_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_flv_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_flv_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_flv_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.o: ../src/http/modules/ngx_http_geo_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_geo_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_geo_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_geo_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_geo_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_geo_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_geo_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geo_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.o: ../src/http/modules/ngx_http_geoip_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_geoip_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_geoip_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_geoip_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_geoip_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_geoip_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_geoip_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_geoip_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.o: ../src/http/modules/ngx_http_gunzip_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_gunzip_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_gunzip_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_gunzip_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_gunzip_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_gunzip_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_gunzip_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gunzip_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.o: ../src/http/modules/ngx_http_gzip_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_gzip_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_gzip_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_gzip_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_gzip_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_gzip_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_gzip_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.o: ../src/http/modules/ngx_http_gzip_static_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_gzip_static_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_gzip_static_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_gzip_static_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_gzip_static_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_gzip_static_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_gzip_static_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_gzip_static_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.o: ../src/http/modules/ngx_http_headers_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_headers_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_headers_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_headers_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_headers_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_headers_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_headers_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_headers_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.o: ../src/http/modules/ngx_http_image_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_image_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_image_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_image_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_image_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_image_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_image_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_image_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.o: ../src/http/modules/ngx_http_index_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_index_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_index_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_index_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_index_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_index_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_index_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_index_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.o: ../src/http/modules/ngx_http_limit_conn_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_limit_conn_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_limit_conn_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_limit_conn_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_limit_conn_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_limit_conn_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_limit_conn_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_conn_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.o: ../src/http/modules/ngx_http_limit_req_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_limit_req_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_limit_req_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_limit_req_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_limit_req_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_limit_req_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_limit_req_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_limit_req_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.o: ../src/http/modules/ngx_http_log_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_log_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_log_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_log_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_log_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_log_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_log_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_log_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.o: ../src/http/modules/ngx_http_map_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_map_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_map_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_map_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_map_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_map_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_map_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_map_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.o: ../src/http/modules/ngx_http_memcached_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_memcached_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_memcached_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_memcached_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_memcached_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_memcached_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_memcached_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_memcached_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.o: ../src/http/modules/ngx_http_mp4_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_mp4_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_mp4_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_mp4_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_mp4_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_mp4_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_mp4_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_mp4_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.o: ../src/http/modules/ngx_http_not_modified_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_not_modified_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_not_modified_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_not_modified_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_not_modified_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_not_modified_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_not_modified_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_not_modified_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.o: ../src/http/modules/ngx_http_proxy_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_proxy_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_proxy_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_proxy_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_proxy_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_proxy_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_proxy_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_proxy_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.o: ../src/http/modules/ngx_http_random_index_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_random_index_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_random_index_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_random_index_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_random_index_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_random_index_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_random_index_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_random_index_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.o: ../src/http/modules/ngx_http_range_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_range_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_range_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_range_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_range_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_range_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_range_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_range_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.o: ../src/http/modules/ngx_http_realip_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_realip_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_realip_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_realip_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_realip_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_realip_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_realip_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_realip_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.o: ../src/http/modules/ngx_http_referer_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_referer_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_referer_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_referer_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_referer_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_referer_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_referer_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_referer_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.o: ../src/http/modules/ngx_http_rewrite_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_rewrite_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_rewrite_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_rewrite_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_rewrite_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_rewrite_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_rewrite_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_rewrite_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.o: ../src/http/modules/ngx_http_scgi_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_scgi_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_scgi_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_scgi_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_scgi_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_scgi_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_scgi_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_scgi_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.o: ../src/http/modules/ngx_http_secure_link_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_secure_link_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_secure_link_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_secure_link_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_secure_link_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_secure_link_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_secure_link_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_secure_link_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.o: ../src/http/modules/ngx_http_split_clients_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_split_clients_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_split_clients_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_split_clients_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_split_clients_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_split_clients_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_split_clients_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_split_clients_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.o: ../src/http/modules/ngx_http_ssi_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_ssi_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_ssi_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_ssi_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_ssi_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_ssi_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_ssi_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssi_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.o: ../src/http/modules/ngx_http_ssl_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_ssl_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_ssl_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_ssl_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_ssl_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_ssl_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_ssl_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_ssl_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.o: ../src/http/modules/ngx_http_static_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_static_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_static_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_static_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_static_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_static_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_static_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_static_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.o: ../src/http/modules/ngx_http_stub_status_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_stub_status_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_stub_status_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_stub_status_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_stub_status_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_stub_status_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_stub_status_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_stub_status_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.o: ../src/http/modules/ngx_http_sub_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_sub_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_sub_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_sub_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_sub_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_sub_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_sub_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_sub_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.o: ../src/http/modules/ngx_http_upstream_hash_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_hash_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_hash_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_hash_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_hash_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_hash_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_hash_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_hash_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.o: ../src/http/modules/ngx_http_upstream_ip_hash_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_ip_hash_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_ip_hash_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_ip_hash_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_ip_hash_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_ip_hash_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_ip_hash_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_ip_hash_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.o: ../src/http/modules/ngx_http_upstream_keepalive_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_keepalive_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_keepalive_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_keepalive_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_keepalive_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_keepalive_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_keepalive_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.o: ../src/http/modules/ngx_http_upstream_least_conn_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_least_conn_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_least_conn_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_least_conn_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_least_conn_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_least_conn_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_least_conn_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.o: ../src/http/modules/ngx_http_upstream_zone_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_zone_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_zone_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_zone_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_zone_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_upstream_zone_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_upstream_zone_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_upstream_zone_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.o: ../src/http/modules/ngx_http_userid_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_userid_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_userid_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_userid_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_userid_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_userid_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_userid_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_userid_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.o: ../src/http/modules/ngx_http_uwsgi_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_uwsgi_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_uwsgi_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_uwsgi_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_uwsgi_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_uwsgi_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_uwsgi_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_uwsgi_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.o: ../src/http/modules/ngx_http_xslt_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_xslt_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_xslt_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_xslt_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_xslt_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/modules/ngx_http_xslt_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/modules/ngx_http_xslt_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/modules/ngx_http_xslt_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.o: ../src/http/v2/ngx_http_v2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2.c > CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2.c > CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2.c -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2.c -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.o: ../src/http/v2/ngx_http_v2_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.o: ../src/http/v2/ngx_http_v2_huff_decode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_huff_decode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_huff_decode.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_huff_decode.c > CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_huff_decode.c > CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_huff_decode.c -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_huff_decode.c -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_decode.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.o: ../src/http/v2/ngx_http_v2_huff_encode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_huff_encode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_huff_encode.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_huff_encode.c > CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_huff_encode.c > CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_huff_encode.c -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_huff_encode.c -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_huff_encode.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.o: ../src/http/v2/ngx_http_v2_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.o: ../src/http/v2/ngx_http_v2_table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_table.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_table.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_table.c > CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_table.c > CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/v2/ngx_http_v2_table.c -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/v2/ngx_http_v2_table.c -o CMakeFiles/nginx_1_9_2.dir/src/http/v2/ngx_http_v2_table.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.o: ../src/http/ngx_http.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.o: ../src/http/ngx_http_copy_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_copy_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_copy_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_copy_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_copy_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_copy_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_copy_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_copy_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.o: ../src/http/ngx_http_core_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_core_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_core_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_core_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_core_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_core_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_core_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_core_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.o: ../src/http/ngx_http_file_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_file_cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_file_cache.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_file_cache.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_file_cache.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_file_cache.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_file_cache.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_file_cache.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.o: ../src/http/ngx_http_header_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_header_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_header_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_header_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_header_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_header_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_header_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_header_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.o: ../src/http/ngx_http_parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_parse.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_parse.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_parse.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_parse.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_parse.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_parse.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.o: ../src/http/ngx_http_postpone_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_postpone_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_postpone_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_postpone_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_postpone_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_postpone_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_postpone_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_postpone_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.o: ../src/http/ngx_http_request.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_request.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_request.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_request.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_request.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_request.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_request.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.o: ../src/http/ngx_http_request_body.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_request_body.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_request_body.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_request_body.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_request_body.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_request_body.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_request_body.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_request_body.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.o: ../src/http/ngx_http_script.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_script.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_script.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_script.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_script.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_script.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_script.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_script.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.o: ../src/http/ngx_http_spdy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_spdy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_spdy.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_spdy.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_spdy.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_spdy.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_spdy.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.o: ../src/http/ngx_http_spdy_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_spdy_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_spdy_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_spdy_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_spdy_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_spdy_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_spdy_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.o: ../src/http/ngx_http_spdy_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_spdy_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_spdy_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_spdy_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_spdy_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_spdy_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_spdy_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_spdy_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.o: ../src/http/ngx_http_special_response.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_special_response.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_special_response.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_special_response.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_special_response.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_special_response.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_special_response.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_special_response.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.o: ../src/http/ngx_http_upstream.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_upstream.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_upstream.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_upstream.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_upstream.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_upstream.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_upstream.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.o: ../src/http/ngx_http_upstream_round_robin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_upstream_round_robin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_upstream_round_robin.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_upstream_round_robin.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_upstream_round_robin.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_upstream_round_robin.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_upstream_round_robin.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_upstream_round_robin.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.o: ../src/http/ngx_http_variables.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_variables.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_variables.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_variables.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_variables.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_variables.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_variables.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_variables.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.o: ../src/http/ngx_http_write_filter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_write_filter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_write_filter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_write_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_write_filter_module.c > CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/http/ngx_http_write_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/http/ngx_http_write_filter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/http/ngx_http_write_filter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_accessby.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_accessby.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_api.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_api.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_api.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_api.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_api.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_api.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_args.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_args.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_args.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_args.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_args.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_args.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_args.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_args.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_balancer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_balancer.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_bodyfilterby.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_cache.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_cache.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_cache.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_cache.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_cache.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_cache.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_capturefilter.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_clfactory.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_config.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_config.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_config.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_config.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_config.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_config.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_consts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_consts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_consts.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_consts.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_consts.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_consts.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_consts.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_consts.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_contentby.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_contentby.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_control.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_control.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_control.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_control.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_control.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_control.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_coroutine.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_ctx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ctx.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_directive.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_directive.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_directive.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_directive.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_directive.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_directive.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_directive.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_directive.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_exception.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_exception.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_exception.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_exception.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_exception.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_exception.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_exception.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_exception.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headerfilterby.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_headers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_in.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_headers_out.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_initby.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_initby.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_initby.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_initby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_initby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_initby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_initby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initby.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_initworkerby.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_lex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_lex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_lex.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_lex.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_lex.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_lex.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_lex.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_lex.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_log.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_log.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_log.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_log.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_log.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_log.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_logby.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_logby.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_logby.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_logby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_logby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_logby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_logby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_logby.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_misc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_misc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_misc.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_misc.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_misc.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_misc.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_misc.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_misc.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_module.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_module.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_module.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_module.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_ndk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ndk.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_output.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_output.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_output.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_output.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_output.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_output.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_output.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_output.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_pcrefix.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_phase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_phase.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_phase.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_phase.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_phase.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_phase.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_phase.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_phase.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_regex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_regex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_regex.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_regex.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_regex.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_regex.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_regex.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_regex.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_req_body.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_body.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_req_method.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_req_method.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_rewriteby.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_script.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_script.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_script.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_script.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_script.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_script.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_script.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_script.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_semaphore.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_setby.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_setby.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_setby.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_setby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_setby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_setby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_setby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_setby.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_shdict.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_shdict.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_sleep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_sleep.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_tcp.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_socket_udp.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_certby.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_ssl_ocsp.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_string.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_string.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_string.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_string.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_string.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_string.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_time.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_time.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_time.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_time.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_time.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_time.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_timer.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_timer.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_timer.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_timer.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_timer.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_timer.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_uri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_uri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_uri.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_uri.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_uri.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_uri.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_uri.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uri.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_uthread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_uthread.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_util.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_util.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_util.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_util.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_util.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_util.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_variable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_variable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_variable.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_variable.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_variable.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_variable.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_variable.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_variable.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.o: ../src/lua-nginx-module-master/src/ngx_http_lua_worker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_worker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_worker.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_worker.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_worker.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_worker.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_worker.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/src/ngx_http_lua_worker.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.o: ../src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c > CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c -o CMakeFiles/nginx_1_9_2.dir/src/lua-nginx-module-master/t/data/fake-module/ngx_http_fake_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.o: ../src/mail/ngx_mail.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.o: ../src/mail/ngx_mail_auth_http_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_auth_http_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_auth_http_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_auth_http_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_auth_http_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_auth_http_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_auth_http_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_auth_http_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.o: ../src/mail/ngx_mail_core_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_core_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_core_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_core_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_core_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_core_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_core_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_core_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.o: ../src/mail/ngx_mail_handler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_handler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_handler.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_handler.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_handler.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_handler.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.o: ../src/mail/ngx_mail_imap_handler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_imap_handler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_imap_handler.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_imap_handler.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_imap_handler.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_imap_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_imap_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_handler.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.o: ../src/mail/ngx_mail_imap_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_imap_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_imap_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_imap_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_imap_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_imap_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_imap_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_imap_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.o: ../src/mail/ngx_mail_parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_parse.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_parse.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_parse.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_parse.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_parse.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_parse.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.o: ../src/mail/ngx_mail_pop3_handler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_pop3_handler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_pop3_handler.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_pop3_handler.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_pop3_handler.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_pop3_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_pop3_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_handler.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.o: ../src/mail/ngx_mail_pop3_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_pop3_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_pop3_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_pop3_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_pop3_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_pop3_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_pop3_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_pop3_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.o: ../src/mail/ngx_mail_proxy_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_proxy_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_proxy_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_proxy_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_proxy_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_proxy_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_proxy_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_proxy_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.o: ../src/mail/ngx_mail_smtp_handler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_smtp_handler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_smtp_handler.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_smtp_handler.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_smtp_handler.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_smtp_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_smtp_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_handler.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.o: ../src/mail/ngx_mail_smtp_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_smtp_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_smtp_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_smtp_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_smtp_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_smtp_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_smtp_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_smtp_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.o: ../src/mail/ngx_mail_ssl_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_ssl_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_ssl_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_ssl_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_ssl_module.c > CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mail/ngx_mail_ssl_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mail/ngx_mail_ssl_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mail/ngx_mail_ssl_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.o: ../src/misc/ngx_cpp_test_module.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.o -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/misc/ngx_cpp_test_module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.o -c /Volumes/d/code/nginx/nginx-1.9.2/src/misc/ngx_cpp_test_module.cpp
 
 CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/misc/ngx_cpp_test_module.cpp > CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/misc/ngx_cpp_test_module.cpp > CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.i
 
 CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/misc/ngx_cpp_test_module.cpp -o CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/misc/ngx_cpp_test_module.cpp -o CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_cpp_test_module.cpp.s
 
 CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.o: ../src/misc/ngx_google_perftools_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/misc/ngx_google_perftools_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/misc/ngx_google_perftools_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/misc/ngx_google_perftools_module.c > CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/misc/ngx_google_perftools_module.c > CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/misc/ngx_google_perftools_module.c -o CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/misc/ngx_google_perftools_module.c -o CMakeFiles/nginx_1_9_2.dir/src/misc/ngx_google_perftools_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.o: ../src/my_test_module/ngx_http_mytest_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/my_test_module/ngx_http_mytest_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/my_test_module/ngx_http_mytest_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/my_test_module/ngx_http_mytest_module.c > CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/my_test_module/ngx_http_mytest_module.c > CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/my_test_module/ngx_http_mytest_module.c -o CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/my_test_module/ngx_http_mytest_module.c -o CMakeFiles/nginx_1_9_2.dir/src/my_test_module/ngx_http_mytest_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.o: ../src/mytest_config/mytest_config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mytest_config/mytest_config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mytest_config/mytest_config.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mytest_config/mytest_config.c > CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mytest_config/mytest_config.c > CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mytest_config/mytest_config.c -o CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mytest_config/mytest_config.c -o CMakeFiles/nginx_1_9_2.dir/src/mytest_config/mytest_config.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.o: ../src/mytest_subrequest/ngx_http_subrequest_mytest_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c > CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c > CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c -o CMakeFiles/nginx_1_9_2.dir/src/mytest_subrequest/ngx_http_subrequest_mytest_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.o: ../src/mytest_upstream/mytest_upstream.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mytest_upstream/mytest_upstream.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/mytest_upstream/mytest_upstream.c
 
 CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mytest_upstream/mytest_upstream.c > CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/mytest_upstream/mytest_upstream.c > CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/mytest_upstream/mytest_upstream.c -o CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/mytest_upstream/mytest_upstream.c -o CMakeFiles/nginx_1_9_2.dir/src/mytest_upstream/mytest_upstream.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.o: ../src/nginx-requestkey-module-master/ngx_http_accesskey_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c > CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c > CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c -o CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c -o CMakeFiles/nginx_1_9_2.dir/src/nginx-requestkey-module-master/ngx_http_accesskey_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.o: ../src/ngx_http_hello_world_module/ngx_http_hello_world_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c > CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c > CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c -o CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c -o CMakeFiles/nginx_1_9_2.dir/src/ngx_http_hello_world_module/ngx_http_hello_world_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.o: ../src/ngx_http_myfilter_module/ngx_http_myfilter_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c > CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c > CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c -o CMakeFiles/nginx_1_9_2.dir/src/ngx_http_myfilter_module/ngx_http_myfilter_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.o: ../src/os/unix/ngx_alloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_alloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_alloc.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_alloc.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_alloc.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_alloc.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_alloc.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_alloc.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.o: ../src/os/unix/ngx_channel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_channel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_channel.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_channel.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_channel.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_channel.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_channel.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_channel.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.o: ../src/os/unix/ngx_daemon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_daemon.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_daemon.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_daemon.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_daemon.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_daemon.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_daemon.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_daemon.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.o: ../src/os/unix/ngx_darwin_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_darwin_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_darwin_init.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_darwin_init.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_darwin_init.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_darwin_init.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_darwin_init.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_init.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.o: ../src/os/unix/ngx_darwin_sendfile_chain.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_darwin_sendfile_chain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_darwin_sendfile_chain.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_darwin_sendfile_chain.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_darwin_sendfile_chain.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_darwin_sendfile_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_darwin_sendfile_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_darwin_sendfile_chain.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.o: ../src/os/unix/ngx_errno.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_errno.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_errno.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_errno.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_errno.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_errno.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_errno.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_errno.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.o: ../src/os/unix/ngx_file_aio_read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_file_aio_read.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_file_aio_read.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_file_aio_read.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_file_aio_read.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_file_aio_read.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_file_aio_read.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_file_aio_read.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.o: ../src/os/unix/ngx_files.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_files.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_files.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_files.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_files.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_files.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_files.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_files.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.o: ../src/os/unix/ngx_freebsd_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_freebsd_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_freebsd_init.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_freebsd_init.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_freebsd_init.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_freebsd_init.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_freebsd_init.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_init.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.o: ../src/os/unix/ngx_freebsd_sendfile_chain.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_freebsd_sendfile_chain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_freebsd_sendfile_chain.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_freebsd_sendfile_chain.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_freebsd_sendfile_chain.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_freebsd_sendfile_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_freebsd_sendfile_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_freebsd_sendfile_chain.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.o: ../src/os/unix/ngx_linux_aio_read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_linux_aio_read.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_linux_aio_read.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_linux_aio_read.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_linux_aio_read.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_linux_aio_read.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_linux_aio_read.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_aio_read.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.o: ../src/os/unix/ngx_linux_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_linux_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_linux_init.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_linux_init.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_linux_init.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_linux_init.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_linux_init.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_init.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.o: ../src/os/unix/ngx_linux_sendfile_chain.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_linux_sendfile_chain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_linux_sendfile_chain.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_linux_sendfile_chain.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_linux_sendfile_chain.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_linux_sendfile_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_linux_sendfile_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_linux_sendfile_chain.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.o: ../src/os/unix/ngx_posix_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_posix_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_posix_init.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_posix_init.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_posix_init.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_posix_init.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_posix_init.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_posix_init.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.o: ../src/os/unix/ngx_process.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_process.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_process.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_process.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_process.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_process.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.o: ../src/os/unix/ngx_process_cycle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_process_cycle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_process_cycle.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_process_cycle.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_process_cycle.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_process_cycle.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_process_cycle.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_process_cycle.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.o: ../src/os/unix/ngx_readv_chain.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_readv_chain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_readv_chain.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_readv_chain.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_readv_chain.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_readv_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_readv_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_readv_chain.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.o: ../src/os/unix/ngx_recv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_recv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_recv.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_recv.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_recv.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_recv.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_recv.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_recv.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.o: ../src/os/unix/ngx_send.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_send.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_send.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_send.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_send.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_send.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_send.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_send.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.o: ../src/os/unix/ngx_setaffinity.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_setaffinity.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_setaffinity.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_setaffinity.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_setaffinity.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_setaffinity.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_setaffinity.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setaffinity.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.o: ../src/os/unix/ngx_setproctitle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_setproctitle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_setproctitle.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_setproctitle.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_setproctitle.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_setproctitle.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_setproctitle.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_setproctitle.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.o: ../src/os/unix/ngx_shmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_shmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_shmem.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_shmem.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_shmem.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_shmem.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_shmem.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_shmem.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.o: ../src/os/unix/ngx_socket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_socket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_socket.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_socket.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_socket.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_socket.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_socket.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_socket.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.o: ../src/os/unix/ngx_solaris_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_solaris_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_solaris_init.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_solaris_init.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_solaris_init.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_solaris_init.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_solaris_init.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_init.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.o: ../src/os/unix/ngx_solaris_sendfilev_chain.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_solaris_sendfilev_chain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_solaris_sendfilev_chain.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_solaris_sendfilev_chain.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_solaris_sendfilev_chain.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_solaris_sendfilev_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_solaris_sendfilev_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_solaris_sendfilev_chain.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.o: ../src/os/unix/ngx_thread_cond.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_thread_cond.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_thread_cond.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_thread_cond.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_thread_cond.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_thread_cond.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_thread_cond.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_cond.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.o: ../src/os/unix/ngx_thread_id.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_thread_id.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_thread_id.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_thread_id.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_thread_id.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_thread_id.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_thread_id.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_id.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.o: ../src/os/unix/ngx_thread_mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_thread_mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_thread_mutex.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_thread_mutex.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_thread_mutex.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_thread_mutex.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_thread_mutex.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_thread_mutex.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.o: ../src/os/unix/ngx_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_time.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_time.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_time.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_time.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_time.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_time.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.o: ../src/os/unix/ngx_udp_recv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_udp_recv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_udp_recv.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_udp_recv.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_udp_recv.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_udp_recv.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_udp_recv.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_udp_recv.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.o: ../src/os/unix/ngx_user.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_user.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_user.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_user.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_user.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_user.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_user.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_user.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.o: ../src/os/unix/ngx_writev_chain.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_writev_chain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_writev_chain.c
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_writev_chain.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_writev_chain.c > CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/os/unix/ngx_writev_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/os/unix/ngx_writev_chain.c -o CMakeFiles/nginx_1_9_2.dir/src/os/unix/ngx_writev_chain.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.o: ../src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c
 
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c > CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c > CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_handler.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.o: ../src/redis2-nginx-module-master/src/ngx_http_redis2_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c > CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c > CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.o: ../src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c
 
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c > CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c > CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_reply.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.o: ../src/redis2-nginx-module-master/src/ngx_http_redis2_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c
 
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c > CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c > CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c -o CMakeFiles/nginx_1_9_2.dir/src/redis2-nginx-module-master/src/ngx_http_redis2_util.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.o: ../src/sendfile_test/sendfile_test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/sendfile_test/sendfile_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/sendfile_test/sendfile_test.c
 
 CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/sendfile_test/sendfile_test.c > CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/sendfile_test/sendfile_test.c > CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/sendfile_test/sendfile_test.c -o CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/sendfile_test/sendfile_test.c -o CMakeFiles/nginx_1_9_2.dir/src/sendfile_test/sendfile_test.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.o: ../src/stream/ngx_stream.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream.c
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.o: ../src/stream/ngx_stream_access_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_access_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_access_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_access_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_access_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_access_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_access_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_access_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.o: ../src/stream/ngx_stream_core_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_core_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_core_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_core_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_core_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_core_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_core_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_core_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.o: ../src/stream/ngx_stream_handler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_handler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_handler.c
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_handler.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_handler.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_handler.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_handler.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.o: ../src/stream/ngx_stream_proxy_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_proxy_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_proxy_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_proxy_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_proxy_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_proxy_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_proxy_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_proxy_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.o: ../src/stream/ngx_stream_ssl_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_ssl_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_ssl_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_ssl_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_ssl_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_ssl_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_ssl_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_ssl_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.o: ../src/stream/ngx_stream_upstream.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream.c
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.o: ../src/stream/ngx_stream_upstream_hash_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream_hash_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream_hash_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream_hash_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream_hash_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream_hash_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream_hash_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_hash_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.o: ../src/stream/ngx_stream_upstream_least_conn_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream_least_conn_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream_least_conn_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream_least_conn_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream_least_conn_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream_least_conn_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream_least_conn_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_least_conn_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.o: ../src/stream/ngx_stream_upstream_round_robin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream_round_robin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream_round_robin.c
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream_round_robin.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream_round_robin.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream_round_robin.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream_round_robin.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_round_robin.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.o: ../src/stream/ngx_stream_upstream_zone_module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream_zone_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream_zone_module.c
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream_zone_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream_zone_module.c > CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/stream/ngx_stream_upstream_zone_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/stream/ngx_stream_upstream_zone_module.c -o CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_module.c.s
 
 CMakeFiles/nginx_1_9_2.dir/src/demo.c.o: CMakeFiles/nginx_1_9_2.dir/flags.make
 CMakeFiles/nginx_1_9_2.dir/src/demo.c.o: ../src/demo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/nginx_1_9_2.dir/src/demo.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/demo.c.o   -c /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/demo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/nginx_1_9_2.dir/src/demo.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx_1_9_2.dir/src/demo.c.o   -c /Volumes/d/code/nginx/nginx-1.9.2/src/demo.c
 
 CMakeFiles/nginx_1_9_2.dir/src/demo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx_1_9_2.dir/src/demo.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/demo.c > CMakeFiles/nginx_1_9_2.dir/src/demo.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/d/code/nginx/nginx-1.9.2/src/demo.c > CMakeFiles/nginx_1_9_2.dir/src/demo.c.i
 
 CMakeFiles/nginx_1_9_2.dir/src/demo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx_1_9_2.dir/src/demo.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/src/demo.c -o CMakeFiles/nginx_1_9_2.dir/src/demo.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/d/code/nginx/nginx-1.9.2/src/demo.c -o CMakeFiles/nginx_1_9_2.dir/src/demo.c.s
 
 # Object files for target nginx_1_9_2
 nginx_1_9_2_OBJECTS = \
@@ -4015,7 +4015,7 @@ nginx_1_9_2: CMakeFiles/nginx_1_9_2.dir/src/stream/ngx_stream_upstream_zone_modu
 nginx_1_9_2: CMakeFiles/nginx_1_9_2.dir/src/demo.c.o
 nginx_1_9_2: CMakeFiles/nginx_1_9_2.dir/build.make
 nginx_1_9_2: CMakeFiles/nginx_1_9_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Linking CXX executable nginx_1_9_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Linking CXX executable nginx_1_9_2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nginx_1_9_2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -4028,6 +4028,6 @@ CMakeFiles/nginx_1_9_2.dir/clean:
 .PHONY : CMakeFiles/nginx_1_9_2.dir/clean
 
 CMakeFiles/nginx_1_9_2.dir/depend:
-	cd /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2 /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2 /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/CMakeFiles/nginx_1_9_2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/d/code/nginx/nginx-1.9.2 /Volumes/d/code/nginx/nginx-1.9.2 /Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug /Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug /Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/CMakeFiles/nginx_1_9_2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nginx_1_9_2.dir/depend
 

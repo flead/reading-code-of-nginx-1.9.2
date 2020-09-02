@@ -27,7 +27,7 @@ static void ngx_close_accepted_connection(ngx_connection_t *c);
     6)将这个新连接对应的读事件添加到epoll等事件驱动模块中，这样，在这个连接上如果接收到用户请求epoll_wait，就会收集到这个事件。
     7)调用监听对象ngx_listening_t中的handler回调方法。ngx_listening_t结构俸的handler回调方法就是当新的TCP连接刚刚建立完成时在这里调用的。
     最后，如果监听事件的available标志位为1，再次循环到第1步，否则ngx_event_accept方法结束。事件的available标志位对应着multi_accept配置
-    项。当available为l时，告诉Nginx -次性尽量多地建立新连接，它的实现原理也就在这里
+    项。当available为1时，告诉Nginx -次性尽量多地建立新连接，它的实现原理也就在这里
 */
 //这里的event是在ngx_event_process_init中从连接池中获取的 ngx_connection_t中的->read读事件
 //accept是在ngx_event_process_init(但进程或者不配置负载均衡的时候)或者(多进程，配置负载均衡)的时候把accept事件添加到epoll中
@@ -60,6 +60,7 @@ ngx_event_accept(ngx_event_t *ev) //在ngx_process_events_and_timers中执行
 
     ecf = ngx_event_get_conf(ngx_cycle->conf_ctx, ngx_event_core_module);
 
+    // 如果为1，则表示 一次性建立尽可能多的连接.
     if (!(ngx_event_flags & NGX_USE_KQUEUE_EVENT)) {
         ev->available = ecf->multi_accept;   
     }

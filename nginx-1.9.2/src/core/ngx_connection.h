@@ -21,7 +21,7 @@ typedef struct ngx_listening_s  ngx_listening_t;
 struct ngx_listening_s { //初始化及赋值见ngx_http_add_listening    热升级nginx的时候，继承源master listen fd在ngx_set_inherited_sockets
     ngx_socket_t        fd; //socket套接字句柄   //赋值见ngx_open_listening_sockets
 
-    struct sockaddr    *sockaddr; //监听sockaddr地址
+    struct sockaddr    *sockaddr;   //监听sockaddr地址
     socklen_t           socklen;    /* size of sockaddr */ //sockaddr地址长度
 
     //存储IP地址的字符串addr_text最大长度，即它指定了addr_text所分配的内存大小
@@ -78,11 +78,11 @@ struct ngx_listening_s { //初始化及赋值见ngx_http_add_listening    热升级nginx的
     unsigned            open:1;
     /*
     标志位，为1表示使用已有的ngx_cycle_t来初始化新的ngx_cycle_t结构体时，不关闭原先打开的监听端口，这对运行中升级程序很有用，
-    remaln为o时，表示正常关闭曾经打开的监听端口。该标志位框架代码会自动设置，参见ngx_init_cycle方法
+    remaln为0时，表示正常关闭曾经打开的监听端口。该标志位框架代码会自动设置，参见ngx_init_cycle方法
     */
     unsigned            remain:1;
     /*
-    标志位，为1时表示跳过设置当前ngx_listening_t结构体中的套接字，为o时正常初始化套接字。该标志位框架代码会自动设置
+    标志位，为1时表示跳过设置当前ngx_listening_t结构体中的套接字，为0时正常初始化套接字。该标志位框架代码会自动设置
     */
     unsigned            ignore:1;
 

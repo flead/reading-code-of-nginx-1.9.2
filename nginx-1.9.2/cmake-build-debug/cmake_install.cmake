@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2
+# Install script for directory: /Volumes/d/code/nginx/nginx-1.9.2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/lifei/work/reading-code-of-nginx-1.9.2/nginx-1.9.2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Volumes/d/code/nginx/nginx-1.9.2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

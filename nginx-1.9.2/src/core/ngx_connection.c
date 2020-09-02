@@ -432,8 +432,9 @@ ngx_open_listening_sockets(ngx_cycle_t *cycle)
                 ls[i].add_reuseport = 0;
             }
 #endif
-
-            if (ls[i].fd != (ngx_socket_t) -1) { //例如热升级的时候，fd是通过NGINX环境变量继承过来的，这里fd大于0
+            //1: 例如热升级的时候，fd是通过NGINX环境变量继承过来的，这里fd大于0.
+            //2: 部分成功部分失败时，重试失败的套接字.
+            if (ls[i].fd != (ngx_socket_t) -1) {
                 continue;
             }
 
@@ -455,7 +456,7 @@ ngx_open_listening_sockets(ngx_cycle_t *cycle)
             }
 
         /*
-          默认情况下,server重启,调用socket,bind,然后listen,会失败.因为该端口正在被使用.如果设定SO_REUSEADDR,那么server重启才会成功.因此,
+          默认情况下,server重启,调用socket,bind,然后listen,会失败.因为该端口正在被使用.如果设定 SO_REUSEADDR,那么server重启才会成功.因此,
           所有的TCP server都必须设定此选项,用以应对server重启的现象.
           */
             if (setsockopt(s, SOL_SOCKET, SO_REUSEADDR,

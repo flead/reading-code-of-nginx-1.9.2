@@ -32,7 +32,7 @@ master½ø³ÌÖĞËùÓĞ×Ó½ø³ÌÏà¹ØµÄ×´Ì¬ĞÅÏ¢¶¼±£´æÔÚngx_processesÊı×éÖĞ¡£ÔÙÀ´¿´Ò»ÏÂÊı×éÔ
 */
 typedef struct {
     ngx_pid_t           pid; //½ø³ÌID
-    int                 status; //×Ó½ø³ÌÍË³öºó£¬¸¸½ø³ÌÊÕµ½SIGCHLDºó£¬¿ªÊ¼waitpid£¬¸¸½ø³ÌÓÉwaitpidÏµÍ³µ÷ÓÃ»ñÈ¡µ½µÄ½ø³Ì×´Ì¬£¬¼ûngx_process_get_status
+    int                 status; //×Ó½ø³ÌÍË³öºó£¬¸¸½ø³ÌÊÕµ½SIGCHLDºó£¬¿ªÊ¼waitpid£¬¸¸½ø³ÌÓÉwaitpidÏµÍ³µ÷ÓÃ»ñÈ¡µ½µÄ½ø³Ì×´Ì¬£¬¼û ngx_process_get_status
 
     /*
     ÕâÊÇÓÉsocketpairÏµÍ³µ÷ÓÃ²úÉú³öµÄÓÃÓÚ½ø³Ì¼äÍ¨ĞÅµÄsocket¾ä±ú£¬ÕâÒ»¶Ôsocket¾ä±ú¿ÉÒÔ»¥ÏàÍ¨ĞÅ£¬Ä¿Ç°ÓÃÓÚmaster¸¸½ø³ÌÓëworker×Ó½ø³ÌÎÊµÄÍ¨ĞÅ£¬Ïê¼û14.4½Ú
