@@ -307,6 +307,7 @@ int checkRunningPid(void)
     pid = readPidFile();
     if (pid < 2)
         return 0;
+    // 向一个进程发送信号值为0的信号. 目的是 检查该进程(pid)是否存在.
     if (kill(pid, 0) < 0)
         return 0;
     fprintf(stderr, "nginx_master is already running!  process id %ld\n", (long int) pid);

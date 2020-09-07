@@ -306,6 +306,7 @@ ngx_pid_t ngx_spawn_process(ngx_cycle_t *cycle, ngx_spawn_proc_pt proc, void *da
         ngx_processes[s].detached = 0;
         break;
 
+        // 热代码替换. 这种生产出来的儿子生死老父亲不负责了.
     case NGX_PROCESS_DETACHED:
         ngx_processes[s].respawn = 0;
         ngx_processes[s].just_spawn = 0;

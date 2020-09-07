@@ -314,13 +314,13 @@ ngx_master_process_cycle(ngx_cycle_t *cycle)
         exit(2);
     }
 
-    /* 把master process + 参数一起主持主进程名 */
+    /* //修改进程名为title */
     p = ngx_cpymem(title, master_process, sizeof(master_process) - 1);
     for (i = 0; i < ngx_argc; i++) {
         *p++ = ' ';
         p = ngx_cpystrn(p, (u_char *) ngx_argv[i], size);
     }
-    ngx_setproctitle(title); //修改进程名为title
+    ngx_setproctitle(title);
 
     ccf = (ngx_core_conf_t *) ngx_get_conf(cycle->conf_ctx, ngx_core_module);
 
@@ -822,7 +822,7 @@ NGX_PROCESS_JUST_RESPAWN标识最终会在ngx_spawn_process()创建worker进程时，将ngx_p
 ngx_signal_worker_processes(cycle, ngx_signal_value(NGX_SHUTDOWN_SIGNAL));  
 以此关闭旧的worker进程。进入该函数，你会发现它也是循环向所有worker进程发送信号，所以它会先把旧worker进程关闭，然后再管理新的worker进程。
 */
-static void     //ngx_reap_children和ngx_signal_worker_processes对应
+static void     //ngx_reap_children 和 ngx_signal_worker_processes对应
 ngx_signal_worker_processes(ngx_cycle_t *cycle, int signo) //向进程发送signo信号
 {
     ngx_int_t      i;
@@ -887,6 +887,7 @@ ngx_signal_worker_processes(ngx_cycle_t *cycle, int signo) //向进程发送signo信号
             continue;
         }
 
+        // 先通过 cmd channel 发送退出信号. 如果失败在发 系统kill信号.
         if (ch.command) {
             if (ngx_write_channel(ngx_processes[i].channel[0],
                                   &ch, sizeof(ngx_channel_t), cycle->log)
@@ -903,6 +904,7 @@ ngx_signal_worker_processes(ngx_cycle_t *cycle, int signo) //向进程发送signo信号
         ngx_log_debug2(NGX_LOG_DEBUG_CORE, cycle->log, 0,
                        "kill (%P, %d)", ngx_processes[i].pid, signo);
 
+        // kill()  返回值为-1，且errno为NGX_ESRCH. 表示找不到这个进程了. (也就是说进程已经彻底退出啦!)
         if (kill(ngx_processes[i].pid, signo) == -1) { //关闭旧的进程；  
             err = ngx_errno;
             ngx_log_error(NGX_LOG_ALERT, cycle->log, err,
@@ -956,6 +958,7 @@ ngx_reap_children(ngx_cycle_t *cycle) //ngx_reap_children和ngx_signal_worker_pro
 
         if (ngx_processes[i].exited) {
 
+            // 告诉其它 worker, 有一个worker死掉了. 关闭channel.  detached=1是热更新场景下的新master.
             if (!ngx_processes[i].detached) {
                 ngx_close_channel(ngx_processes[i].channel, cycle->log);
 
@@ -984,6 +987,7 @@ ngx_reap_children(ngx_cycle_t *cycle) //ngx_reap_children和ngx_signal_worker_pro
                 }
             }
 
+            // 重新拉起异常死亡的 worker. 重置cmd channel.
             if (ngx_processes[i].respawn
                 && !ngx_processes[i].exiting
                 && !ngx_terminate
@@ -1013,6 +1017,7 @@ ngx_reap_children(ngx_cycle_t *cycle) //ngx_reap_children和ngx_signal_worker_pro
                 continue;
             }
 
+            // 热升级失败了
             if (ngx_processes[i].pid == ngx_new_binary) {
 
                 ccf = (ngx_core_conf_t *) ngx_get_conf(cycle->conf_ctx,
@@ -1035,6 +1040,7 @@ ngx_reap_children(ngx_cycle_t *cycle) //ngx_reap_children和ngx_signal_worker_pro
                 }
             }
 
+            // 将更新进程表信息
             if (i == ngx_last_process - 1) {
                 ngx_last_process--;
 
@@ -1288,8 +1294,8 @@ ngx_worker_process_init(ngx_cycle_t *cycle, ngx_int_t worker)
         ngx_log_debugall(cycle->log, 0, "chdir %V OK", &ccf->working_directory);
     }
 
+    //SIG_SETMASK-表示重新设置要屏蔽的信号,set的内容为empty表示不包含任何信号. 所以这两句的含义是: 不阻塞任何信号了！ 信号处理函数是继承master的。
     sigemptyset(&set);
-
     if (sigprocmask(SIG_SETMASK, &set, NULL) == -1) {
         ngx_log_error(NGX_LOG_ALERT, cycle->log, ngx_errno,
                       "sigprocmask() failed");
@@ -1308,7 +1314,7 @@ ngx_worker_process_init(ngx_cycle_t *cycle, ngx_int_t worker)
 
     for (i = 0; ngx_modules[i]; i++) {
         if (ngx_modules[i]->init_process) {
-            if (ngx_modules[i]->init_process(cycle) == NGX_ERROR) { //ngx_event_process_init等
+            if (ngx_modules[i]->init_process(cycle) == NGX_ERROR) { // ngx_event_process_init 等
                 /* fatal */
                 exit(2);
             }
@@ -1497,6 +1503,7 @@ ngx_channel_handler(ngx_event_t *ev)
             return;
         }
 
+        // todo  通知worker把它加入event事件循环的意思?
         if (ngx_event_flags & NGX_USE_EVENTPORT_EVENT) {
             char tmpbuf[256];
         

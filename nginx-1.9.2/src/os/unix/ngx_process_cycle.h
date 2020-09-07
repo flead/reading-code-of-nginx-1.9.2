@@ -52,7 +52,7 @@ void ngx_single_process_cycle(ngx_cycle_t *cycle);
 extern ngx_uint_t      ngx_process;
 extern ngx_uint_t      ngx_worker;
 extern ngx_pid_t       ngx_pid;
-extern ngx_pid_t       ngx_new_binary;
+extern ngx_pid_t       ngx_new_binary;  //调用了热升级
 extern ngx_uint_t      ngx_inherited;
 extern ngx_uint_t      ngx_daemonized;
 extern ngx_uint_t      ngx_exiting;
@@ -65,7 +65,7 @@ extern sig_atomic_t    ngx_debug_quit;
 extern sig_atomic_t    ngx_terminate;
 extern sig_atomic_t    ngx_noaccept;
 extern sig_atomic_t    ngx_reconfigure;
-extern sig_atomic_t    ngx_reopen;
+extern sig_atomic_t    ngx_reopen;  //重新打开日志文件
 extern sig_atomic_t    ngx_change_binary;
 
 

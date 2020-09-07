@@ -199,6 +199,7 @@ static char **ngx_os_environ;
 //2.读入命令行参数
 //3.OS相关初始化
 //4.读入并解析配置
+//A.信号初始化 ngx_init_signals
 //5.核心模块初始化
 //6.创建各种临时文件和目录
 //7.创建共享内存
@@ -412,6 +413,7 @@ socket监听状况，还是需要写到日志文件中去的。在nginx的main函数中，首先会调用ngx_l
 
 #if !(NGX_WIN32)
 
+    // 设置信号处理函数
     if (ngx_init_signals(cycle->log) != NGX_OK) {
         return 1;
     }
