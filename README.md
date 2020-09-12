@@ -15,7 +15,7 @@ tar -zxvf pcre-8.38.tar.gz
 tar -zxvf openssl-1.1.0g.tar.gz
 
 3. 进入nginx目录后执行3个命令
-./configure --with-debug --with-cc-opt='-g -O0' --prefix=/usr/local/nginx --with-zlib=../zlib-1.2.11 --with-pcre=../pcre-8.38 --with-openssl=../openssl-1.1.0g
+./configure --with-debug --with-cc-opt='-g -O0' --prefix=/usr/local/nginx --with-zlib=../zlib-1.2.11 --with-pcre=../pcre-8.38 --with-openssl=../openssl-1.1.0
 
 make
 

@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/macos/code/nginx/pcre-8.38'
+ac_pwd='/mnt/hgfs/code/nginx/pcre-8.38'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/usr/bin/mkdir -p'
@@ -1015,12 +1015,12 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/usr/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
-S["install_sh"]="${SHELL} /home/macos/code/nginx/pcre-8.38/install-sh"
-S["MAKEINFO"]="${SHELL} /home/macos/code/nginx/pcre-8.38/missing makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/macos/code/nginx/pcre-8.38/missing autoheader"
-S["AUTOMAKE"]="${SHELL} /home/macos/code/nginx/pcre-8.38/missing automake-1.15"
-S["AUTOCONF"]="${SHELL} /home/macos/code/nginx/pcre-8.38/missing autoconf"
-S["ACLOCAL"]="${SHELL} /home/macos/code/nginx/pcre-8.38/missing aclocal-1.15"
+S["install_sh"]="${SHELL} /mnt/hgfs/code/nginx/pcre-8.38/install-sh"
+S["MAKEINFO"]="${SHELL} /mnt/hgfs/code/nginx/pcre-8.38/missing makeinfo"
+S["AUTOHEADER"]="${SHELL} /mnt/hgfs/code/nginx/pcre-8.38/missing autoheader"
+S["AUTOMAKE"]="${SHELL} /mnt/hgfs/code/nginx/pcre-8.38/missing automake-1.15"
+S["AUTOCONF"]="${SHELL} /mnt/hgfs/code/nginx/pcre-8.38/missing autoconf"
+S["ACLOCAL"]="${SHELL} /mnt/hgfs/code/nginx/pcre-8.38/missing aclocal-1.15"
 S["VERSION"]="8.38"
 S["PACKAGE"]="pcre"
 S["CYGPATH_W"]="echo"
@@ -1147,6 +1147,7 @@ D["HAVE_UNSIGNED_LONG_LONG"]=" 1"
 D["HAVE_BCOPY"]=" 1"
 D["HAVE_MEMMOVE"]=" 1"
 D["HAVE_STRERROR"]=" 1"
+D["HAVE_ZLIB_H"]=" 1"
 D["PCRE_STATIC"]=" 1"
 D["SUPPORT_PCRE8"]=" /**/"
 D["PCREGREP_BUFSIZE"]=" 20480"

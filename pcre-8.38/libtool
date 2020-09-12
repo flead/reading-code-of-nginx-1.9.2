@@ -1,6 +1,6 @@
 #! /bin/sh
 # Generated automatically by config.status (pcre) 8.38
-# Libtool was configured on host localhost.localdomain:
+# Libtool was configured on host linux:
 # NOTE: Changes made to this file will be lost: look at ltmain.sh.
 
 # Provide generalized library-building support services.

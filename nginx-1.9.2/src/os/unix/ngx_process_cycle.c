@@ -209,7 +209,7 @@ ngx_uint_t    ngx_daemonized;
 
 sig_atomic_t  ngx_noaccept;
 ngx_uint_t    ngx_noaccepting;
-ngx_uint_t    ngx_restart;
+ngx_uint_t    ngx_restart;      // 热升级失败啦。 请用老的bin拉起worker开始工作.
 
 
 static u_char  master_process[] = "master process";
@@ -331,32 +331,34 @@ ngx_master_process_cycle(ngx_cycle_t *cycle)
     ngx_new_binary = 0;
     delay = 0;
     sigio = 0;
-    live = 1;
+    live = 1;   // master是否需要退出.
 
 /*
     ngx_signal_handler方法会根据接收到的信号设置ngx_reap. ngx_quit. ngx_terminate.
 ngx_reconfigure. ngx_reopen. ngx_change_binary. ngx_noaccept这些标志位，见表8-40
 表8-4进程中接收到的信号对Nginx框架的意义
-┏━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃    信  号    ┃  对应进程中的全局标志位变量  ┃    意义                                        ┃
-┣━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃  QUIT        ┃    ngx_quit                  ┃  优雅地关闭整个服务                            ┃
-┣━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃  TERM或者INT ┃ngx_terminate                 ┃  强制关闭整个服务                              ┃
-┣━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃  USR1        ┃    ngx reopen                ┃  重新打开股务中的所有文件                      ┃
-┣━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃              ┃                              ┃  所有子进程不再接受处理新的连接，实际相当于对  ┃
-┃  WINCH       ┃ngx_noaccept                  ┃                                                ┃
-┃              ┃                              ┃所有的予进程发送QUIT信号量                      ┃
-┣━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃  USR2        ┃ngx_change_binary             ┃  平滑升级到新版本的Nginx程序                   ┃
-┣━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃  HUP         ┃ngx_reconfigure               ┃  重读配置文件并使服务对新配景项生效            ┃
-┣━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃              ┃                              ┃  有子进程意外结束，这时需要监控所有的子进程，  ┃
-┃  CHLD        ┃    ngx_reap                  ┃也就是ngx_reap_children方法所做的工作           ┃
-┗━━━━━━━┻━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━┛
+┏━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃       ┃  对应进程中的全局标志位变量  ┃       含 义.            ┃
+┣━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃  QUIT ┃    ngx_quit             ┃  优雅地关闭整个服务        ┃
+┣━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃  TERM ┃   ngx_terminate         ┃  强制关闭整个服务         ┃
+┃  INT  ┃                         ┃                        ┃
+┣━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃  USR1 ┃    ngx reopen           ┃  重新打开股务中的所有文件   ┃
+┣━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃       ┃                         ┃ 所有子进程不再接受处理新连接┃
+┃ WINCH ┃ ngx_noaccept            ┃ 实际相当于对             ┃
+┃       ┃                         ┃ 所有的予进程发送QUIT信号量 ┃
+┣━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃  USR2 ┃ngx_change_binary        ┃ 平滑升级到新版本的Nginx程序┃
+┣━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃  HUP  ┃ngx_reconfigure          ┃  配置更新.使服务对新配置生效┃
+┣━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃       ┃                         ┃ 有子进程意外结束，        ┃
+┃  CHLD ┃    ngx_reap             ┃ 这时需要监控所有的子进程.  ┃
+┃       ┃                         ┃                        ┃
+┗━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━┛
     表8-4列出了master工作流程中的7个全局标志位变量。除此之外，还有一个标志位也
 会用到，它仅仅是在master工作流程中作为标志位使用的，与信号无关。
 
@@ -401,23 +403,6 @@ ngx_noaccept，决定执行不同的分支流程，并循环执行（注意，每次一个循环执行完毕后进
 
         ngx_log_debug0(NGX_LOG_DEBUG_EVENT, cycle->log, 0, "sigsuspend");
 
-        /*
-          sigsuspend(const sigset_t *mask))用于在接收到某个信号之前, 临时用mask替换进程的信号掩码, 并暂停进程执行，直到收到信号为止。
-          sigsuspend 返回后将恢复调用之前的信号掩码。信号处理函数完成后，进程将继续执行。该系统调用始终返回-1，并将errno设置为EINTR。
-
-         
-          其实sigsuspend是一个原子操作，包含4个步骤：
-          (1) 设置新的mask阻塞当前进程；
-          (2) 收到信号，恢复原先mask；
-          (3) 调用该进程设置的信号处理函数；
-          (4) 待信号处理函数返回后，sigsuspend返回。
-          
-          */ 
-        /*
-        等待信号发生,前面sigprocmask后有设置sigemptyset(&set);所以这里会等待接收所有信号，只要有信号到来则返回。例如定时信号  ngx_reap ngx_terminate等信号
-        从上面的(2)步骤可以看出在处理函数中执行信号中断函数的嘿嘿，由于这时候已经恢复了原来的mask(也就是上面sigprocmask设置的掩码集)
-        所以在信号处理函数中不会再次引起接收信号，只能在该while()循环再次走到sigsuspend的时候引起信号中断，从而避免了同一时刻多次中断同一信号
-        */
         //nginx sigsuspend分析，参考 http://weakyon.com/2015/05/14/learning-of-sigsuspend.html
         sigsuspend(&set); //等待定时器超时，通过ngx_init_signals执行ngx_signal_handler中的SIGALRM信号，信号处理函数返回后，继续该函数后面的操作
 
@@ -430,28 +415,34 @@ ngx_noaccept，决定执行不同的分支流程，并循环执行（注意，每次一个循环执行完毕后进
             ngx_reap = 0;
             ngx_log_debug0(NGX_LOG_DEBUG_EVENT, cycle->log, 0, "reap children");
 
-            ///这个里面处理退出的子进程(有的worker异常退出，这时我们就需要重启这个worker )，如果所有子进程都退出则会返回0. 
-            live = ngx_reap_children(cycle); // 有子进程意外结束，这时需要监控所有的子进程，也就是ngx_reap_children方法所做的工作
+            //这个里面处理退出的子进程(有的worker异常退出，这时我们就需要重启这个worker )
+            //如果所有子进程都退出则会返回0.
+            live = ngx_reap_children(cycle);
         }
 
         //如果没有存活的子进程，并且收到了ngx_terminate或者ngx_quit信号，则master退出。 
         if (!live && (ngx_terminate || ngx_quit)) {
+            // 时间顺序.
+            // 1: 外部给master发送了一个 sigquit.
+            // 2: master给子进程发送了 sig_quit。
+            // 3: 子进程退出,此时master收到新信号 SIGCHLD.
+            // 4: master处理CHLD信号(ngx_reap变量)后，会修改 live的值. （live=0,表示所有的子进程都退出了）
             ngx_master_process_exit(cycle);
         }
 
         /*
-         如果ngx_terminate标志位为l，则向所有子进程发送信号TERM．通知子进程强制退出进程，接下来直接跳到第1步并挂起进程，等待信号激活进程。
+         如果ngx_terminate标志位为1，则向所有子进程发送信号TERM．通知子进程强制退出进程，接下来直接跳到第1步并挂起进程，等待信号激活进程。
          */
         if (ngx_terminate) { //收到了sigint信号。
             if (delay == 0) {///设置延时。
                 delay = 50;
             }
 
+            //TODO 这个 sigio 是啥含义？？ 没看懂
             if (sigio) {
                 sigio--;
                 continue;
             }
-
             sigio = ccf->worker_processes + 2 /* cache processes */;
 
             if (delay > 1000) { //如果超时，则强制杀死worker  
@@ -488,14 +479,16 @@ ngx_noaccept，决定执行不同的分支流程，并循环执行（注意，每次一个循环执行完毕后进
 
         //收到需要reconfig的信号  
         /*
-         如果ngx_reconfigure标志位为0，则跳到第13步检查ngx_restart标志位。如果ngx_reconfigure为l，则表示需要重新读取配置文件。
+         如果ngx_reconfigure标志位为0，则跳到第13步检查ngx_restart标志位。如果ngx_reconfigure为1，则表示需要重新读取配置文件。
          Nginx不会再让原先的worker等子进程再重新读取配置文件，它的策略是重新初始化ngx_cycle_t结构体，用它来读取新的配置文件，
          再拉起新的worker进程，销毁旧的worker进程。本步中将会调用ngx_init_cycle方法重新初始化ngx_cycle_t结构体。
           */
         if (ngx_reconfigure) { //重读配置文件并使服务对新配景项生效 
             ngx_reconfigure = 0;
 
-            if (ngx_new_binary) { //判断是否热代码替换后的新的代码还在运行中(也就是还没退出当前的master)。如果还在运行中，则不需要重新初始化config。  
+            if (ngx_new_binary) {
+                ngx_log_error(NGX_LOG_NOTICE, cycle->log, 0, "lifei reconfiguring. old worker 也需要启动新的配置....");
+                // 给老的master发送配置更新命令. 实测发现这个路径是有bug的！  accept mutex lock failed.
                 ngx_start_worker_processes(cycle, ccf->worker_processes,
                                            NGX_PROCESS_RESPAWN);
                 ngx_start_cache_manager_processes(cycle, 0);
@@ -534,7 +527,9 @@ ngx_noaccept，决定执行不同的分支流程，并循环执行（注意，每次一个循环执行完毕后进
                                         ngx_signal_value(NGX_SHUTDOWN_SIGNAL));
         }
 
+        // 老master之前收到了WINCH信号(不再listening).  突发异常: 新master突然挂掉了！
         if (ngx_restart) {
+            ngx_log_error(NGX_LOG_NOTICE, cycle->log, 0, "lifei  ngx_restart.....");
             ngx_restart = 0;
             ngx_start_worker_processes(cycle, ccf->worker_processes,
                                        NGX_PROCESS_RESPAWN);
@@ -570,11 +565,10 @@ ngx_noaccept，决定执行不同的分支流程，并循环执行（注意，每次一个循环执行完毕后进
 
         
         ///接受到停止accept连接，其实也就是worker退出(有区别的是，这里master不需要退出).。  
-        /*
-          检查ngx_noaccept标志位，如果ngx_noaccept为0，则继续第1步进行下一个循环：如果ngx_noacicept为1，则向所有的子进程发送QUIT信号，
-          要求它们优雅地关闭服务，同时将ngx_noaccept置为0，并将ngx_noaccepting置为1，表示正在停止接受新的连接。
-          */
-        if (ngx_noaccept) {//所有子进程不再接受处理新的连接，实际相当于对所有的予进程发送QUIT信号量
+        // 所有子进程不再接受处理新的连接.  收到信号的worker会优雅退出.
+        // 和直接给master发QUIT信号不同之处在于, 收到WINCH信号的master并不会退出.
+        // 收到信号的master并不退出，那么他在干啥? 他在监控新的master,如果新的master退出,则立即启动旧worker开始工作.
+        if (ngx_noaccept) {
             ngx_noaccept = 0;
             ngx_noaccepting = 1;
 
@@ -644,13 +638,14 @@ ngx_single_process_cycle(ngx_cycle_t *cycle)
     }
 }
 
+//n为nginx.conf worker_processes中配置的进程数
 static void
 ngx_start_worker_processes(ngx_cycle_t *cycle, ngx_int_t n, ngx_int_t type)
 {
     ngx_int_t      i;
     ngx_channel_t  ch;
 
-    ngx_log_error(NGX_LOG_NOTICE, cycle->log, 0, "start worker processes");
+    ngx_log_error(NGX_LOG_NOTICE, cycle->log, 0, "lifei start worker processes");
 
     ngx_memzero(&ch, sizeof(ngx_channel_t));
 
@@ -1033,8 +1028,17 @@ ngx_reap_children(ngx_cycle_t *cycle) //ngx_reap_children和ngx_signal_worker_pro
                                   ccf->oldpid.data, ccf->pid.data, ngx_argv[0]);
                 }
 
+                ngx_log_error(NGX_LOG_ALERT, cycle->log, ngx_errno,
+                              ngx_rename_file_n ">>>>>>>> lifei 666 %s back to %s failed "
+                              "after the new binary process \"%s\" exited",
+                              ccf->oldpid.data, ccf->pid.data, ngx_argv[0]);
+
                 ngx_new_binary = 0;
                 if (ngx_noaccepting) {
+                    ngx_log_error(NGX_LOG_ALERT, cycle->log, ngx_errno,
+                                  ngx_rename_file_n ">>>>>>>> lifei 777 ngx_restart = 1 %s back to %s failed "
+                                  "after the new binary process \"%s\" exited",
+                                  ccf->oldpid.data, ccf->pid.data, ngx_argv[0]);
                     ngx_restart = 1;
                     ngx_noaccepting = 0;
                 }
