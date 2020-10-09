@@ -1059,7 +1059,7 @@ ngx_http_process_request_line(ngx_event_t *rev) //ngx_http_process_request_line·
             if (r->http_version < NGX_HTTP_VERSION_10) { //1.0ÒÔÏÂ°æ±¾Ã»ÓÐÇëÇóÍ·²¿×Ö¶Î£¬
                 /*
                     ÓÃ»§ÇëÇóµÄHTTP°æ±¾Ð¡ÓÚ1.0£¨ÈçHTTP 0.9°æ±¾£©£¬Æä´¦Àí¹ý³Ì½«ÓëHTTP l.0ºÍHTTP l.1µÄÍêÈ«²»Í¬£¬Ëü²»»áÓÐ½ÓÊÕHTTP
-                    Í·²¿ÕâÒ»²½Öè¡£ÕâÊ±½«»áµ÷ÓÃngx_http_find_virtual_server·½·¨Ñ°ÕÒµ½ÏàÓ¦µÄÐéÄâÖ÷»ú£
+                    Í·²¿ÕâÒ»²½Öè¡£ÕâÊ±½«»áµ÷ÓÃngx_http_find_virtual_server·½·¨Ñ°ÕÒµ½ÏàÓ¦µÄÐéÄâÖ÷»ú?
                     */
                 if (r->headers_in.server.len == 0
                     && ngx_http_set_virtual_server(r, &r->headers_in.server) //http0.9Ó¦¸ÃÊÇ´ÓÇëÇóÐÐ»ñÈ¡ÐéÄâÖ÷»ú?
@@ -1424,6 +1424,8 @@ ngx_http_process_request_headers(ngx_event_t *rev)
             ngx_log_debug2(NGX_LOG_DEBUG_HTTP, r->connection->log, 0,
                            "http header: \"%V: %V\"",
                            &h->key, &h->value); //Èç¹û´ò¿ªµ÷ÊÔ¿ª¹Ø£¬Ôòname:value¿ÉÒÔ´æµ½error.logÖÐ
+
+
 
             continue; //¼ÌÐø½âÎöÏÂÒ»ÐÐ
         }
@@ -4226,7 +4228,7 @@ ngx_http_log_error(ngx_log_t *log, u_char *buf, size_t len)
     r = ctx->request;
 
     if (r) {
-        return r->log_handler(r, ctx->current_request, p, len); //ngx_http_log_error_handler
+        return r->log_handler(r, ctx->current_request, p, len); // ngx_http_log_error_handler
 
     } else {
         p = ngx_snprintf(p, len, ", server: %V",

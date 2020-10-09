@@ -162,7 +162,7 @@ DEBUG调试级别的，这里的level由各子模块定义。level的取值范围参见表4-7。
 ┣━━━━━━━━━━╋━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━┫
 ┃NGX LOG_DEBUG_MYSQL ┃ Ox400  ┃    表示与MySQL相关的Nginx模块所使用的调试日志  ┃
 ┗━━━━━━━━━━┻━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━┛
-    当HTTP模块调用ngx_log_debug宏记录日志时，传人的level参数是NGX_LOG_DEBUG HTTP，
+    当HTTP模块调用ngx_log_debug宏记录日志时，传入的level参数是NGX_LOG_DEBUG HTTP，
 这时如果1og参数不属于HTTP模块，如使周了event事件模块的log，则
 不会输出任何日志。它正是ngx_log_debug拥有level参数的意义所在。
     (2) log参数
@@ -272,7 +272,7 @@ ngx_log_error_core(ngx_uint_t level, ngx_log_t *log, const char* filename, int l
         if (log->log_level < level && !debug_connection) { //只有log_level大于level则会输出到error_log配置中
             break;
         }
-
+        // 写内存不写文件时走到这里.
         if (log->writer) {
             log->writer(log, level, errstr, p - errstr);
             goto next;
@@ -289,7 +289,10 @@ ngx_log_error_core(ngx_uint_t level, ngx_log_t *log, const char* filename, int l
             goto next;
         }
 
-        n = ngx_write_fd(log->file->fd, errstr, p - errstr); //写到log文件中
+        int i;
+        for (i=0; i<1; i++) {
+            n = ngx_write_fd(log->file->fd, errstr, p - errstr); //写到log文件中
+        }
 
         if (n == -1 && ngx_errno == NGX_ENOSPC) {
             log->disk_full_time = ngx_time();
